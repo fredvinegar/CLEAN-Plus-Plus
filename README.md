@@ -33,7 +33,7 @@ You can find the full details about each smell in [smells.md](data/smells.md)
 * You can go into oclint-scripts and run: ./RunAll <path to your project compile-command.json file> for running all the smells that available. 
 
 ## Experiments
-### Running CLEAN++ Test Cases
+### Running CLEAN++ on Test Cases
 #### List of Test Cases
 We evaluated CLEAN++ smells' implementations by writing 35 test cases, each targeting a specific test.
 We include the written tests in the [test directory](tests/), for both [C++](tests/cpp) and [Java](tests/java).
