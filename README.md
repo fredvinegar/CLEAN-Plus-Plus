@@ -46,3 +46,5 @@ You can find more information about them in [projects.tsv](data/projects.tsv)
 | libfm     | matrix             | spdlog      | LeetCode      | SEAL                | marl             |           |
 | cxxopts   | UDPspeeder         | muduo       | handy         | backward-cpp        | openal-soft      |           |
 
+We executed CLEAN++ on all of the 44 projects.
+You can observe the results in [project_results.tsv](data/project_results.tsv)
