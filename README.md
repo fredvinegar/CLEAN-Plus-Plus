@@ -2,8 +2,8 @@
 
 CLEAN++ is an extension of [OCLint](https://github.com/oclint/oclint), a static code analysis tool, to be able to detect 35 code smells in C++ code.
 
-- [List of Code Smells](#list_smells)
-- [How to run CLEAN++](#how_to_run)
+- [List of Code Smells](#list-of-code-smells)
+- [How to run CLEAN++](#how-to-run-clean)
   - [Dependencies](#dependencies)
   - [Install](#install)
   - [Execution](#execution)
@@ -11,7 +11,7 @@ CLEAN++ is an extension of [OCLint](https://github.com/oclint/oclint), a static 
 - [Experiments](#experiments)
   - [Setting up docker container](#setup_docker)
 
-## List of Code Smells {#list_smells}
+## List of Code Smells
 
 CLEAN++ implements 35 code smells derived from the smells in DesigniteJava and Organic tools.
 You can find the full details about each smell in [smells.md](data/smells.md)
@@ -26,21 +26,21 @@ You can find the full details about each smell in [smells.md](data/smells.md)
 | UnexploitedEncapsulation | Empty catch clause                      | Lazy Class          | Class Data Should Be Private | Message Chain          |
 | BrokenModularization     | Long Identifier                         | Swiss Army Knife    | God Class                    | Shotgun Surgery        |
 
-## How to run CLEAN++? {#how_to_run}
-### Dependencies {#dependencies}
+## How to run CLEAN++?
+### Dependencies
 * A C++ compiler (such as GCC or Clang)
 * CMake
 * LLVM and Clang (version 3.4 or later)
 * Python 3
 * Ninja
 
-### Install {#install}
+### Install
 ```bash
 cd src/oclint-script;
 ./make
 ```
 
-### Execution {#execution}
+### Execution
 To run CLEAN++ on a project in <path-to-project> make sure there is a compilation database inside <path-to-project> of the format compile-command.json.
 Then, run the following commands, where <rule name> is the name of the code smells you pretend to detect.
   
