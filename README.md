@@ -52,6 +52,16 @@ In the end, both execution types will output a report with the detected code sme
 
   
 ## Experiments
+
+### Setting up docker container
+To replicate the experiments, you need to create a container with CLEAN++ installed.
+Therefore execute the following commands.
+
+```bash 
+docker build -t=cleanpp --progress=plain .
+docker run -d --name=cleanpp cleanpp
+```
+
 ### Running CLEAN++ on Test Cases
 #### List of Test Cases
 We evaluated CLEAN++ smells' implementations by writing 35 test cases, each targeting a specific test.
@@ -60,10 +70,7 @@ We include the written tests in the [test directory](tests/), for both [C++](tes
 
 #### Replicate experiments
 ##### Create docker container for test execution
-```console 
-docker build -t=test-cases --progress=plain -f replicate/TestsDockerfile .
-docker run -d --name=test-cases test-cases
-```
+
 
 
 #### Results
