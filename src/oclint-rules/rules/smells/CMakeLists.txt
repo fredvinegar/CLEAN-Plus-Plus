@@ -1,0 +1,39 @@
+SET(LIST_OF_RULES
+        AntiSingleton
+        SwissArmyKnife
+        ClassDataShouldBePrivate
+        AggregateInfo
+        LazyClass
+        LargeClass
+        SpeculativeGenerality
+        RefusedBequest
+        GodClass
+        SpaghettiCode
+        NumOfFanIn
+        DataClass
+        MultifacetedAbstraction
+        UnnecessaryAbstraction
+        BrokenModularization
+        CyclicDependentModularization
+        InsufficientModularization
+        HubLikeModularization
+        DeficientEncapsulation
+        UnexploitedEncapsulation
+        DispersedCoupling
+        MethodsInfo
+        IntensiveCoupling
+        MessageChain
+        NumOfFanInFunctions
+        ShotgunSurgery
+        ComplexMethod
+        AbstractFunctionCallFromConstructor
+        ComplexConditional
+        EmptyCatchClause
+        MissingDefault
+        MagicNumber
+        TryThings
+        ImperativeAbstraction
+        UnutilizedAbstraction
+        )
+
+BUILD_DYNAMIC_RULES("${LIST_OF_RULES}")

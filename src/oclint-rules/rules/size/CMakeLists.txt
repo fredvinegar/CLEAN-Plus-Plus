@@ -1,0 +1,20 @@
+SET(LIST_OF_RULES
+    BrainMethod
+    ComplexClass
+    CyclomaticComplexity
+    LongClass
+    LongLine
+    LongMethod
+    NcssMethodCount
+    NestedBlockDepth
+    NPathComplexity
+    TooManyFields
+    TooManyMethods
+    TooManyParameters
+    LongParameterList
+    LongStatement
+    LongIdentifier
+    BrainClass
+    )
+
+BUILD_DYNAMIC_RULES("${LIST_OF_RULES}")

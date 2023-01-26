@@ -1,0 +1,71 @@
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+3.43333
+
+Compiler Warnings:
+
+NotBrainMethodTest2.cpp:6:9: unused variable 'v2'
+NotBrainMethodTest2.cpp:7:9: unused variable 'v3'
+./NotBrainMethodTest2.h:9:9: private field 'f4' is not used
+./NotBrainMethodTest2.h:10:9: private field 'f5' is not used
+NotBrainMethodTest1.cpp:7:9: unused variable 'v2'
+NotBrainMethodTest1.cpp:8:9: unused variable 'v3'
+NotBrainMethodTest1.cpp:9:9: unused variable 'v4'
+NotBrainMethodTest1.cpp:10:9: unused variable 'v5'
+BrainMethodTest.cpp:6:9: unused variable 'v2'
+BrainMethodTest.cpp:7:9: unused variable 'v3'
+BrainMethodTest.cpp:8:9: unused variable 'v4'
+BrainMethodTest.cpp:9:9: unused variable 'v5'
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=3 FilesWithSmells=3 TotalCodeSmells=18 
+
+./NotBrainMethodTest2.h:5:1: long statement [Implementation Smell] C++ class has long statement.
+./NotBrainMethodTest2.h:5:1: missing default [Implementation Smell] C++ method missing default.
+NotBrainMethodTest2.cpp:8:23: magic number [Implementation Smell] C++ method has magic number.
+./NotBrainMethodTest2.h:5:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainMethodTest2.h:5:1: complex method [Implementation Smell] C++ class has complex method.
+./NotBrainMethodTest2.h:5:1: multifaceted abstraction [Design Smell] C++ class has Multifaceted Abstraction.
+./NotBrainMethodTest1.h:5:1: long statement [Implementation Smell] C++ class has long statement.
+./NotBrainMethodTest1.h:5:1: missing default [Implementation Smell] C++ method missing default.
+NotBrainMethodTest1.cpp:11:23: magic number [Implementation Smell] C++ method has magic number.
+./NotBrainMethodTest1.h:5:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainMethodTest1.h:5:1: multifaceted abstraction [Design Smell] C++ class has Multifaceted Abstraction.
+./BrainMethodTest.h:5:1: brain method [Organic Method Smell] C++ class has brain method.
+./BrainMethodTest.h:5:1: long statement [Implementation Smell] C++ class has long statement.
+./BrainMethodTest.h:5:1: missing default [Implementation Smell] C++ method missing default.
+BrainMethodTest.cpp:10:23: magic number [Implementation Smell] C++ method has magic number.
+./BrainMethodTest.h:5:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./BrainMethodTest.h:5:1: complex method [Implementation Smell] C++ class has complex method.
+./BrainMethodTest.h:5:1: multifaceted abstraction [Design Smell] C++ class has Multifaceted Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

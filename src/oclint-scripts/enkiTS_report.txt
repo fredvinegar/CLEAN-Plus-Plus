@@ -1,0 +1,187 @@
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=23 FilesWithSmells=15 TotalCodeSmells=179 
+
+example/Priorities_c.c:29:23: magic number [Implementation Smell] C++ method has magic number.
+example/TaskOverhead.cpp:42:5: lazy class [Organic Class Smell] C++ class with 5 lines below the threshold of 7
+example/Timer.h:6:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+example/TaskOverhead.cpp:40:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+example/Timer.h:27:16: magic number [Implementation Smell] C++ method has magic number.
+example/TaskOverhead.cpp:46:31: magic number [Implementation Smell] C++ method has magic number.
+example/TaskOverhead.cpp:97:32: magic number [Implementation Smell] C++ method has magic number.
+example/TaskOverhead.cpp:40:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TaskOverhead.cpp:42:5: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TaskOverhead.cpp:78:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TaskOverhead.cpp:78:1: long statement [Implementation Smell] C++ class has long statement.
+example/TaskOverhead.cpp:40:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TaskOverhead.cpp:78:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TaskOverhead.cpp:40:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TaskOverhead.cpp:42:5: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TaskOverhead.cpp:78:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/ParallelSum.cpp:40:5: lazy class [Organic Class Smell] C++ class with 5 lines below the threshold of 7
+example/ParallelSum.cpp:38:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+example/ParallelSum.cpp:44:31: magic number [Implementation Smell] C++ method has magic number.
+example/ParallelSum.cpp:95:31: magic number [Implementation Smell] C++ method has magic number.
+example/ParallelSum.cpp:38:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/ParallelSum.cpp:40:5: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/ParallelSum.cpp:76:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/ParallelSum.cpp:76:1: long statement [Implementation Smell] C++ class has long statement.
+example/ParallelSum.cpp:38:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/ParallelSum.cpp:76:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/ParallelSum.cpp:38:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/ParallelSum.cpp:40:5: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/ParallelSum.cpp:76:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/CustomAllocator.cpp:36:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 7
+example/CustomAllocator.cpp:36:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/CustomAllocator.cpp:36:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+example/CustomAllocator.cpp:28:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/CustomAllocator.cpp:36:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/CustomAllocator.cpp:36:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/CompletionAction.cpp:112:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+example/CompletionAction.cpp:97:38: magic number [Implementation Smell] C++ method has magic number.
+example/CompletionAction.cpp:142:31: magic number [Implementation Smell] C++ method has magic number.
+example/CompletionAction.cpp:38:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/CompletionAction.cpp:59:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/CompletionAction.cpp:86:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/CompletionAction.cpp:112:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/CompletionAction.cpp:59:1: long statement [Implementation Smell] C++ class has long statement.
+example/CompletionAction.cpp:112:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/CompletionAction.cpp:38:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/CompletionAction.cpp:59:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/CompletionAction.cpp:86:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/CompletionAction.cpp:112:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TaskThroughput.cpp:42:5: lazy class [Organic Class Smell] C++ class with 5 lines below the threshold of 7
+example/TaskThroughput.cpp:46:31: magic number [Implementation Smell] C++ method has magic number.
+example/TaskThroughput.cpp:89:31: magic number [Implementation Smell] C++ method has magic number.
+example/TaskThroughput.cpp:42:5: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TaskThroughput.cpp:71:1: long statement [Implementation Smell] C++ class has long statement.
+example/TaskThroughput.cpp:71:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TaskThroughput.cpp:42:5: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestWaitforTask.cpp:60:1: long method [Implementation Smell] C++ class has long method with 34 lines.
+example/TestWaitforTask.cpp:73:30: magic number [Implementation Smell] C++ method has magic number.
+example/TestWaitforTask.cpp:30:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestWaitforTask.cpp:45:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestWaitforTask.cpp:60:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestWaitforTask.cpp:60:1: large class [Organic Class Smell] C++ abstract class with 47 methods exceeds limit of 30
+example/TestWaitforTask.cpp:60:1: long statement [Implementation Smell] C++ class has long statement.
+example/TestWaitforTask.cpp:60:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TestWaitforTask.cpp:30:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestWaitforTask.cpp:45:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestWaitforTask.cpp:60:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/TaskScheduler_c.cpp:53:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 7
+src/TaskScheduler_c.cpp:110:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 7
+src/TaskScheduler_c.cpp:237:37: magic number [Implementation Smell] C++ method has magic number.
+src/TaskScheduler_c.cpp:55:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/TaskScheduler_c.cpp:68:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/TaskScheduler_c.cpp:82:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/TaskScheduler_c.cpp:45:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler_c.cpp:53:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler_c.cpp:55:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler_c.cpp:68:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler_c.cpp:82:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler_c.cpp:110:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler_c.cpp:55:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/TaskScheduler_c.cpp:68:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/TaskScheduler_c.cpp:82:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/PinnedTask.cpp:52:35: magic number [Implementation Smell] C++ method has magic number.
+example/PinnedTask.cpp:39:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/PinnedTask.cpp:28:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/PinnedTask.cpp:39:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/PinnedTask.cpp:39:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestAll.cpp:60:5: lazy class [Organic Class Smell] C++ class with 5 lines below the threshold of 7
+example/TestAll.cpp:145:1: lazy class [Organic Class Smell] C++ class with 6 lines below the threshold of 7
+example/TestAll.cpp:152:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 7
+example/TestAll.cpp:194:1: lazy class [Organic Class Smell] C++ class with 5 lines below the threshold of 7
+example/TestAll.cpp:58:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+example/TestAll.cpp:64:31: magic number [Implementation Smell] C++ method has magic number.
+example/TestAll.cpp:211:24: magic number [Implementation Smell] C++ method has magic number.
+example/TestAll.cpp:58:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestAll.cpp:60:5: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestAll.cpp:96:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestAll.cpp:132:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestAll.cpp:152:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestAll.cpp:174:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestAll.cpp:184:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestAll.cpp:194:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestAll.cpp:233:13: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/TestAll.cpp:152:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+example/TestAll.cpp:96:1: long statement [Implementation Smell] C++ class has long statement.
+example/TestAll.cpp:58:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TestAll.cpp:96:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TestAll.cpp:132:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TestAll.cpp:145:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TestAll.cpp:152:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TestAll.cpp:174:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TestAll.cpp:184:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TestAll.cpp:194:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TestAll.cpp:233:13: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/TestAll.cpp:58:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestAll.cpp:60:5: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestAll.cpp:96:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestAll.cpp:132:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestAll.cpp:152:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestAll.cpp:174:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestAll.cpp:184:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestAll.cpp:194:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/TestAll.cpp:233:13: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/Dependencies.cpp:93:1: lazy class [Organic Class Smell] C++ class with 6 lines below the threshold of 7
+example/Dependencies.cpp:72:40: magic number [Implementation Smell] C++ method has magic number.
+example/Dependencies.cpp:99:31: magic number [Implementation Smell] C++ method has magic number.
+example/Dependencies.cpp:40:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/Dependencies.cpp:59:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/Dependencies.cpp:70:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/Dependencies.cpp:80:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/Dependencies.cpp:93:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example/Dependencies.cpp:40:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/Dependencies.cpp:50:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/Dependencies.cpp:59:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/Dependencies.cpp:70:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/Dependencies.cpp:80:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/Dependencies.cpp:93:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/Dependencies.cpp:40:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/Dependencies.cpp:59:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/Dependencies.cpp:70:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/Dependencies.cpp:80:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/Dependencies.cpp:93:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example/ExternalTaskThread.cpp:32:37: magic number [Implementation Smell] C++ method has magic number.
+example/ExternalTaskThread.cpp:30:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/WaitForNewPinnedTasks.cpp:39:37: magic number [Implementation Smell] C++ method has magic number.
+example/WaitForNewPinnedTasks.cpp:74:65: magic number [Implementation Smell] C++ method has magic number.
+example/WaitForNewPinnedTasks.cpp:84:65: magic number [Implementation Smell] C++ method has magic number.
+example/WaitForNewPinnedTasks.cpp:37:1: long statement [Implementation Smell] C++ class has long statement.
+example/WaitForNewPinnedTasks.cpp:56:1: long statement [Implementation Smell] C++ class has long statement.
+example/WaitForNewPinnedTasks.cpp:37:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/WaitForNewPinnedTasks.cpp:56:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/WaitForNewPinnedTasks.cpp:68:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/WaitForNewPinnedTasks.cpp:78:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example/Priorities.cpp:37:72: magic number [Implementation Smell] C++ method has magic number.
+example/Priorities.cpp:26:1: long statement [Implementation Smell] C++ class has long statement.
+example/Priorities.cpp:26:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+example/Priorities.cpp:26:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler.cpp:95:5: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 7
+src/TaskScheduler.cpp:111:5: lazy class [Organic Class Smell] C++ class with 5 lines below the threshold of 7
+src/TaskScheduler.cpp:127:5: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 7
+src/TaskScheduler.cpp:1395:5: lazy class [Organic Class Smell] C++ class with 3 lines below the threshold of 7
+src/TaskScheduler.cpp:233:5: magic number [Implementation Smell] C++ method has magic number.
+src/TaskScheduler.cpp:1074:17: magic number [Implementation Smell] C++ method has magic number.
+src/TaskScheduler.cpp:1403:9: magic number [Implementation Smell] C++ method has magic number.
+src/TaskScheduler.cpp:88:5: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/TaskScheduler.cpp:111:5: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/TaskScheduler.cpp:117:5: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/TaskScheduler.cpp:1395:5: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/TaskScheduler.cpp:1395:5: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/TaskScheduler.cpp:88:5: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler.cpp:95:5: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler.cpp:111:5: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler.cpp:117:5: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler.cpp:127:5: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler.cpp:1022:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler.cpp:1395:5: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/TaskScheduler.cpp:88:5: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/TaskScheduler.cpp:111:5: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/TaskScheduler.cpp:117:5: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/TaskScheduler.cpp:1395:5: class data should be private [Organic Class Smell] C++ class having at least one public field.
+
+[OCLint (https://oclint.org) v21.10]

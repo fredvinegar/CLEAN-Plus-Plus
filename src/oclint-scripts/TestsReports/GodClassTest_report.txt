@@ -1,0 +1,55 @@
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+56.1429
+
+Compiler Warnings:
+
+./NotGodClassTest2.h:9:9: private field 'f6' is not used
+./NotGodClassTest2.h:10:9: private field 'f7' is not used
+./NotGodClassTest2.h:11:9: private field 'f8' is not used
+./NotGodClassTest2.h:12:9: private field 'f9' is not used
+./NotGodClassTest2.h:13:9: private field 'f10' is not used
+./NotGodClassTest1.h:12:9: private field 'f9' is not used
+./NotGodClassTest1.h:13:9: private field 'f10' is not used
+./GodClassTest.h:5:9: private field 'f2' is not used
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=3 FilesWithSmells=3 TotalCodeSmells=8 
+
+./NotGodClassTest2.h:3:1: long method [Implementation Smell] C++ class has long method with 57 lines.
+./NotGodClassTest2.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotGodClassTest2.h:3:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+./NotGodClassTest1.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotGodClassTest1.h:3:1: multifaceted abstraction [Design Smell] C++ class has Multifaceted Abstraction.
+./GodClassTest.h:3:1: god class [Organic Class Smell] C++ class with 572 lines and 0.0222222 TCC exceeds limit of 0.07
+./GodClassTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./GodClassTest.h:3:1: multifaceted abstraction [Design Smell] C++ class has Multifaceted Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

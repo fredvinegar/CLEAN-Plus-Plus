@@ -1,0 +1,38 @@
+3
+3
+3
+3
+3
+3
+
+Compiler Warnings:
+
+LongIdentifierTest2.cpp:6:9: unused variable 'v'
+LongIdentifierTest1.cpp:6:9: unused variable 'v'
+LongIdentifierTest3.cpp:6:9: unused variable 'thisIsAVeryVeryVeryLongVariableName'
+LongIdentifierTest5.cpp:6:9: unused variable 'v1'
+LongIdentifierTest5.cpp:6:13: unused variable 'thisIsAVeryVeryVeryLongVariableName'
+LongIdentifierTest5.cpp:6:50: unused variable 'v2'
+./LongIdentifierTest5.h:4:9: private field 'f' is not used
+LongIdentifierTest4.cpp:6:9: unused variable 'thisIsAVeryVeryVeryLongVariableName'
+./LongIdentifierTest4.h:4:9: private field 'f' is not used
+NotLongIdentifierTest.cpp:7:9: unused variable 'thisIsShortVariableName'
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=6 FilesWithSmells=6 TotalCodeSmells=11 
+
+./LongIdentifierTest2.h:3:1: long identifier [Implementation Smell] C++ method has long identifier.
+./LongIdentifierTest2.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./LongIdentifierTest1.h:3:1: long identifier [Implementation Smell] C++ method has long identifier.
+./LongIdentifierTest1.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./LongIdentifierTest3.h:3:1: long identifier [Implementation Smell] C++ method has long identifier.
+./LongIdentifierTest3.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./LongIdentifierTest5.h:3:1: long identifier [Implementation Smell] C++ method has long identifier.
+./LongIdentifierTest5.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./LongIdentifierTest4.h:3:1: long identifier [Implementation Smell] C++ method has long identifier.
+./LongIdentifierTest4.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotLongIdentifierTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

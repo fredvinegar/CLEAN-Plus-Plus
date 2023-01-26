@@ -1,0 +1,196 @@
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+11.0833
+
+Compiler Warnings:
+
+BrainClassTest1.cpp:8:9: unused variable 'v2'
+BrainClassTest1.cpp:9:9: unused variable 'v3'
+BrainClassTest1.cpp:10:9: unused variable 'v4'
+BrainClassTest1.cpp:11:9: unused variable 'v5'
+BrainClassTest1.cpp:49:9: unused variable 'v2'
+BrainClassTest1.cpp:50:9: unused variable 'v3'
+BrainClassTest1.cpp:51:9: unused variable 'v4'
+BrainClassTest1.cpp:52:9: unused variable 'v5'
+NotBrainClassTest1.cpp:8:9: unused variable 'v2'
+NotBrainClassTest1.cpp:9:9: unused variable 'v3'
+NotBrainClassTest1.cpp:10:9: unused variable 'v4'
+NotBrainClassTest1.cpp:11:9: unused variable 'v5'
+NotBrainClassTest1.cpp:47:9: unused variable 'v2'
+NotBrainClassTest1.cpp:48:9: unused variable 'v3'
+NotBrainClassTest1.cpp:49:9: unused variable 'v4'
+NotBrainClassTest1.cpp:50:9: unused variable 'v5'
+NotBrainClassTest3.cpp:8:9: unused variable 'v2'
+NotBrainClassTest3.cpp:9:9: unused variable 'v3'
+NotBrainClassTest3.cpp:10:9: unused variable 'v4'
+NotBrainClassTest3.cpp:11:9: unused variable 'v5'
+NotBrainClassTest3.cpp:43:9: unused variable 'v2'
+NotBrainClassTest3.cpp:44:9: unused variable 'v3'
+NotBrainClassTest3.cpp:45:9: unused variable 'v4'
+NotBrainClassTest3.cpp:46:9: unused variable 'v5'
+BrainClassTest2.cpp:9:9: unused variable 'v2'
+BrainClassTest2.cpp:10:9: unused variable 'v3'
+BrainClassTest2.cpp:11:9: unused variable 'v4'
+BrainClassTest2.cpp:12:9: unused variable 'v5'
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=5 FilesWithSmells=5 TotalCodeSmells=109 
+
+./BrainClassTest1.h:5:1: long method [Implementation Smell] C++ class has long method with 40 lines.
+./BrainClassTest1.h:5:1: long statement [Implementation Smell] C++ class has long statement.
+./BrainClassTest1.h:5:1: missing default [Implementation Smell] C++ method missing default.
+BrainClassTest1.cpp:12:23: magic number [Implementation Smell] C++ method has magic number.
+./BrainClassTest1.h:5:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./BrainClassTest1.h:5:1: large class [Organic Class Smell] C++ abstract class with 124 methods exceeds limit of 89
+./BrainClassTest1.h:5:1: complex method [Implementation Smell] C++ class has complex method.
+./BrainClassTest1.h:5:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+./BrainClassTest1.h:5:1: multifaceted abstraction [Design Smell] C++ class has Multifaceted Abstraction.
+./NotBrainClassTest1.h:5:1: long method [Implementation Smell] C++ class has long method with 38 lines.
+./NotBrainClassTest1.h:5:1: long statement [Implementation Smell] C++ class has long statement.
+./NotBrainClassTest1.h:5:1: missing default [Implementation Smell] C++ method missing default.
+NotBrainClassTest1.cpp:21:23: magic number [Implementation Smell] C++ method has magic number.
+./NotBrainClassTest1.h:5:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest1.h:5:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+./NotBrainClassTest1.h:5:1: complex method [Implementation Smell] C++ class has complex method.
+./NotBrainClassTest1.h:5:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+./NotBrainClassTest2.h:6:1: long method [Implementation Smell] C++ class has long method with 47 lines.
+./NotBrainClassTest2.h:6:1: complex class [Organic Class Smell] C++ class has complex method.
+./NotBrainClassTest2.h:6:1: long statement [Implementation Smell] C++ class has long statement.
+./NotBrainClassTest2.h:6:1: missing default [Implementation Smell] C++ method missing default.
+NotBrainClassTest2.cpp:9:23: magic number [Implementation Smell] C++ method has magic number.
+./NotBrainClassTest2.h:6:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest2.h:6:1: complex method [Implementation Smell] C++ class has complex method.
+./NotBrainClassTest3.h:6:1: long method [Implementation Smell] C++ class has long method with 34 lines.
+./NotBrainClassTest3.h:6:1: long method [Implementation Smell] C++ class has long method with 32 lines.
+./NotBrainClassTest3.h:6:1: long statement [Implementation Smell] C++ class has long statement.
+./NotBrainClassTest3.h:6:1: missing default [Implementation Smell] C++ method missing default.
+NotBrainClassTest3.cpp:15:23: magic number [Implementation Smell] C++ method has magic number.
+./NotBrainClassTest3.h:6:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:20:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:22:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:24:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:26:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:28:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:30:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:32:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:34:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:36:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:38:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:40:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:42:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:44:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:46:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:48:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:50:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:52:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:54:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:56:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:58:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:60:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:62:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:64:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:66:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:68:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:70:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:72:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:74:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:76:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:78:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:80:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:82:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:84:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrainClassTest3.h:20:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:22:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:24:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:26:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:28:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:30:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:32:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:34:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:36:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:38:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:40:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:42:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:44:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:46:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:48:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:50:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:52:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:54:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:56:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:58:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:60:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:62:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:64:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:66:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:68:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:70:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:72:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:74:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:76:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:78:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:80:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:82:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:84:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotBrainClassTest3.h:6:1: complex method [Implementation Smell] C++ class has complex method.
+./NotBrainClassTest3.h:6:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+./BrainClassTest2.h:6:1: brain class [Organic Class Smell] C++ class has brain method.
+./BrainClassTest2.h:6:1: brain method [Organic Method Smell] C++ class has brain method.
+./BrainClassTest2.h:6:1: long method [Implementation Smell] C++ class has long method with 201 lines.
+./BrainClassTest2.h:6:1: complex class [Organic Class Smell] C++ class has complex method.
+./BrainClassTest2.h:6:1: long statement [Implementation Smell] C++ class has long statement.
+./BrainClassTest2.h:6:1: missing default [Implementation Smell] C++ method missing default.
+BrainClassTest2.cpp:13:25: magic number [Implementation Smell] C++ method has magic number.
+./BrainClassTest2.h:6:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./BrainClassTest2.h:6:1: large class [Organic Class Smell] C++ abstract class with 219 methods exceeds limit of 89
+./BrainClassTest2.h:6:1: complex method [Implementation Smell] C++ class has complex method.
+./BrainClassTest2.h:6:1: multifaceted abstraction [Design Smell] C++ class has Multifaceted Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

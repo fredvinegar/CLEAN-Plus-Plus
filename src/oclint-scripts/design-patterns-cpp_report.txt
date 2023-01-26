@@ -1,0 +1,159 @@
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=24 FilesWithSmells=24 TotalCodeSmells=151 
+
+visitor/Visitor.cpp:13:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 5
+visitor/Visitor.cpp:14:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 5
+visitor/Visitor.cpp:15:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 5
+visitor/Visitor.cpp:22:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+visitor/Visitor.cpp:76:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+visitor/Visitor.cpp:13:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+visitor/Visitor.cpp:76:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+visitor/Visitor.cpp:13:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+visitor/Visitor.cpp:14:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+visitor/Visitor.cpp:15:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+bridge/Bridge.cpp:17:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+bridge/Bridge.cpp:58:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+bridge/Bridge.cpp:58:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+bridge/Bridge.cpp:58:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+bridge/Bridge.cpp:71:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+decorator/Decorator.cpp:18:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+decorator/Decorator.cpp:71:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+decorator/Decorator.cpp:84:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+facade/Facade.cpp:18:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+facade/Facade.cpp:29:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+facade/Facade.cpp:40:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+facade/Facade.cpp:56:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+observer/Observer.cpp:14:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 5
+observer/Observer.cpp:21:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+observer/Observer.cpp:36:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+observer/Observer.cpp:62:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+observer/Observer.cpp:98:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+observer/Observer.cpp:129:31: magic number [Implementation Smell] C++ method has magic number.
+observer/Observer.cpp:21:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+observer/Observer.cpp:14:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+chain-of-responsibility/ChainOfResponsibility.cpp:17:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+chain-of-responsibility/ChainOfResponsibility.cpp:44:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+chain-of-responsibility/ChainOfResponsibility.cpp:71:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+chain-of-responsibility/ChainOfResponsibility.cpp:44:1: long statement [Implementation Smell] C++ class has long statement.
+chain-of-responsibility/ChainOfResponsibility.cpp:71:1: long statement [Implementation Smell] C++ class has long statement.
+command/Command.cpp:32:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+command/Command.cpp:48:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+command/Command.cpp:76:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+command/Command.cpp:32:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+command/Command.cpp:18:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+command/Command.cpp:32:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+command/Command.cpp:48:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+command/Command.cpp:76:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+flyweight/Flyweight.cpp:19:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+flyweight/Flyweight.cpp:79:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+flyweight/Flyweight.cpp:113:25: magic number [Implementation Smell] C++ method has magic number.
+flyweight/Flyweight.cpp:79:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+flyweight/Flyweight.cpp:79:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+proxy/Proxy.cpp:18:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+proxy/Proxy.cpp:45:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+adapter/ObjectAdapter.cpp:17:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+adapter/ObjectAdapter.cpp:47:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+adapter/ObjectAdapter.cpp:17:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+adapter/ObjectAdapter.cpp:17:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+adapter/ObjectAdapter.cpp:32:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+adapter/ObjectAdapter.cpp:47:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+singleton/Singleton.cpp:18:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+builder/Builder.cpp:18:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+builder/Builder.cpp:113:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+builder/Builder.cpp:113:1: large class [Organic Class Smell] C++ abstract class with 26 methods exceeds limit of 23
+builder/Builder.cpp:73:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+builder/Builder.cpp:91:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+builder/Builder.cpp:50:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+builder/Builder.cpp:73:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+builder/Builder.cpp:91:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+builder/Builder.cpp:113:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+state/State.cpp:18:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+state/State.cpp:59:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+state/State.cpp:59:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+memento/Memento.cpp:19:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+memento/Memento.cpp:48:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+memento/Memento.cpp:83:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+memento/Memento.cpp:135:25: magic number [Implementation Smell] C++ method has magic number.
+memento/Memento.cpp:83:1: large class [Organic Class Smell] C++ abstract class with 30 methods exceeds limit of 23
+memento/Memento.cpp:48:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+memento/Memento.cpp:83:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+mediator/Mediator.cpp:15:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 5
+mediator/Mediator.cpp:63:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+mediator/Mediator.cpp:80:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+mediator/Mediator.cpp:124:52: magic number [Implementation Smell] C++ method has magic number.
+mediator/Mediator.cpp:15:1: speculative generality [Organic Class Smell] C++ abstract class with 1 children under the limit of 3
+mediator/Mediator.cpp:22:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+mediator/Mediator.cpp:63:1: speculative generality [Organic Class Smell] C++ abstract class with 1 children under the limit of 3
+mediator/Mediator.cpp:15:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+mediator/Mediator.cpp:80:1: long statement [Implementation Smell] C++ class has long statement.
+mediator/Mediator.cpp:80:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+mediator/Mediator.cpp:15:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+mediator/Mediator.cpp:63:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+mediator/Mediator.cpp:80:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+adapter/ClassAdapter.cpp:17:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+adapter/ClassAdapter.cpp:17:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+adapter/ClassAdapter.cpp:49:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+adapter/ClassAdapter.cpp:17:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+adapter/ClassAdapter.cpp:31:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+adapter/ClassAdapter.cpp:49:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+prototype/Prototype.cpp:18:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+prototype/Prototype.cpp:94:28: magic number [Implementation Smell] C++ method has magic number.
+prototype/Prototype.cpp:18:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+prototype/Prototype.cpp:32:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+prototype/Prototype.cpp:48:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+prototype/Prototype.cpp:68:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+strategy/Strategy.cpp:17:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+strategy/Strategy.cpp:69:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+strategy/Strategy.cpp:69:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+template-method/TemplateMethod.cpp:17:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+template-method/TemplateMethod.cpp:17:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+template-method/TemplateMethod.cpp:42:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+factory-method/FactoryMethod.cpp:19:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+factory-method/FactoryMethod.cpp:65:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+factory-method/FactoryMethod.cpp:65:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+factory-method/FactoryMethod.cpp:84:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+factory-method/FactoryMethod.cpp:65:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+factory-method/FactoryMethod.cpp:84:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+interpreter/Interpreter.cpp:18:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+interpreter/Interpreter.cpp:83:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+interpreter/Interpreter.cpp:18:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+interpreter/Interpreter.cpp:42:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+interpreter/Interpreter.cpp:60:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+interpreter/Interpreter.cpp:83:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+composite/Composite.cpp:40:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+composite/Composite.cpp:106:33: magic number [Implementation Smell] C++ method has magic number.
+composite/Composite.cpp:40:1: large class [Organic Class Smell] C++ abstract class with 27 methods exceeds limit of 23
+iterator/Iterator.cpp:15:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 5
+iterator/Iterator.cpp:16:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 5
+iterator/Iterator.cpp:76:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+iterator/Iterator.cpp:38:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+iterator/Iterator.cpp:93:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+iterator/Iterator.cpp:140:23: magic number [Implementation Smell] C++ method has magic number.
+iterator/Iterator.cpp:15:1: speculative generality [Organic Class Smell] C++ abstract class with 1 children under the limit of 3
+iterator/Iterator.cpp:23:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+iterator/Iterator.cpp:76:1: speculative generality [Organic Class Smell] C++ abstract class with 1 children under the limit of 3
+iterator/Iterator.cpp:15:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+iterator/Iterator.cpp:16:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+iterator/Iterator.cpp:15:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+iterator/Iterator.cpp:16:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+iterator/Iterator.cpp:23:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+iterator/Iterator.cpp:38:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+iterator/Iterator.cpp:76:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+iterator/Iterator.cpp:93:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+abstract-factory/AbstractFactory.cpp:18:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+abstract-factory/AbstractFactory.cpp:60:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+abstract-factory/AbstractFactory.cpp:101:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 5
+abstract-factory/AbstractFactory.cpp:18:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+abstract-factory/AbstractFactory.cpp:31:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+abstract-factory/AbstractFactory.cpp:43:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+abstract-factory/AbstractFactory.cpp:60:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+abstract-factory/AbstractFactory.cpp:73:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+abstract-factory/AbstractFactory.cpp:85:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+abstract-factory/AbstractFactory.cpp:101:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+abstract-factory/AbstractFactory.cpp:115:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+abstract-factory/AbstractFactory.cpp:131:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

@@ -1,0 +1,46 @@
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=2 FilesWithSmells=1 TotalCodeSmells=38 
+
+include/kfr/io/impl/../dr/dr_flac.h:5625:33: magic number [Implementation Smell] C++ method has magic number.
+include/kfr/io/impl/../dr/dr_flac.h:6479:27: magic number [Implementation Smell] C++ method has magic number.
+include/kfr/io/impl/../dr/dr_mp3.h:661:15: magic number [Implementation Smell] C++ method has magic number.
+include/kfr/io/impl/../dr/dr_mp3.h:675:30: magic number [Implementation Smell] C++ method has magic number.
+include/kfr/io/impl/../dr/dr_mp3.h:682:26: magic number [Implementation Smell] C++ method has magic number.
+include/kfr/io/impl/../dr/dr_flac.h:5623:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+include/kfr/io/impl/../dr/dr_flac.h:5637:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+include/kfr/io/impl/../dr/dr_flac.h:6467:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+include/kfr/io/impl/../dr/dr_mp3.h:653:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+include/kfr/io/impl/../dr/dr_mp3.h:659:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+include/kfr/io/impl/../dr/dr_mp3.h:665:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+include/kfr/io/impl/../dr/dr_mp3.h:670:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+include/kfr/io/impl/../dr/dr_mp3.h:679:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+include/kfr/io/impl/../dr/dr_mp3.h:3617:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+include/kfr/io/impl/../dr/dr_flac.h:5637:9: large class [Organic Class Smell] C++ abstract class with 22 methods exceeds limit of 19
+include/kfr/io/impl/../dr/dr_mp3.h:653:9: lazy class [Organic Class Smell] C++ class with 6 lines below the threshold of 13
+include/kfr/io/impl/../dr/dr_mp3.h:659:9: lazy class [Organic Class Smell] C++ class with 8 lines below the threshold of 13
+include/kfr/io/impl/../dr/dr_mp3.h:665:9: lazy class [Organic Class Smell] C++ class with 5 lines below the threshold of 13
+include/kfr/io/impl/../dr/dr_mp3.h:679:9: lazy class [Organic Class Smell] C++ class with 10 lines below the threshold of 13
+include/kfr/io/impl/../dr/dr_mp3.h:3617:9: lazy class [Organic Class Smell] C++ class with 6 lines below the threshold of 13
+include/kfr/io/impl/../dr/dr_flac.h:5623:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+include/kfr/io/impl/../dr/dr_flac.h:5637:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+include/kfr/io/impl/../dr/dr_flac.h:6467:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+include/kfr/io/impl/../dr/dr_mp3.h:653:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+include/kfr/io/impl/../dr/dr_mp3.h:659:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+include/kfr/io/impl/../dr/dr_mp3.h:665:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+include/kfr/io/impl/../dr/dr_mp3.h:670:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+include/kfr/io/impl/../dr/dr_mp3.h:679:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+include/kfr/io/impl/../dr/dr_mp3.h:3617:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+include/kfr/io/impl/../dr/dr_flac.h:5623:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+include/kfr/io/impl/../dr/dr_flac.h:5637:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+include/kfr/io/impl/../dr/dr_flac.h:6467:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+include/kfr/io/impl/../dr/dr_mp3.h:653:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+include/kfr/io/impl/../dr/dr_mp3.h:659:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+include/kfr/io/impl/../dr/dr_mp3.h:665:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+include/kfr/io/impl/../dr/dr_mp3.h:670:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+include/kfr/io/impl/../dr/dr_mp3.h:679:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+include/kfr/io/impl/../dr/dr_mp3.h:3617:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+
+[OCLint (https://oclint.org) v21.10]

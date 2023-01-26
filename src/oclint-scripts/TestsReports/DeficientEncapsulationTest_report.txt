@@ -1,0 +1,18 @@
+
+Compiler Warnings:
+
+./NotDeficientEncapsulationTest.h:5:9: private field 'f' is not used
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=2 FilesWithSmells=2 TotalCodeSmells=6 
+
+./NotDeficientEncapsulationTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotDeficientEncapsulationTest.h:3:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./DeficientEncapsulationTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./DeficientEncapsulationTest.h:3:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./DeficientEncapsulationTest.h:3:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./DeficientEncapsulationTest.h:3:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+
+[OCLint (https://oclint.org) v21.10]

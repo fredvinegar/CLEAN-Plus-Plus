@@ -1,0 +1,36 @@
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=3 FilesWithSmells=3 TotalCodeSmells=7 
+
+NotShotgunSurgeryTest2.cpp:6:25: magic number [Implementation Smell] C++ method has magic number.
+./NotShotgunSurgeryTest2.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+NotShotgunSurgeryTest1.cpp:6:25: magic number [Implementation Smell] C++ method has magic number.
+./NotShotgunSurgeryTest1.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+ShotgunSurgeryTest.cpp:6:25: magic number [Implementation Smell] C++ method has magic number.
+./ShotgunSurgeryTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./ShotgunSurgeryTest.h:3:1: shotgun surgery [Organic Method Smell] C++ class has shotgun surgery.
+
+[OCLint (https://oclint.org) v21.10]

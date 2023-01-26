@@ -1,0 +1,32 @@
+1
+
+Compiler Warnings:
+
+./NotBrokenModularizationTest3.h:4:9: private field 'f1' is not used
+./NotBrokenModularizationTest3.h:5:9: private field 'f2' is not used
+./NotBrokenModularizationTest3.h:6:9: private field 'f3' is not used
+./NotBrokenModularizationTest3.h:7:9: private field 'f4' is not used
+./NotBrokenModularizationTest1.h:4:9: private field 'f1' is not used
+./NotBrokenModularizationTest1.h:5:9: private field 'f2' is not used
+./NotBrokenModularizationTest1.h:6:9: private field 'f3' is not used
+./BrokenModularizationTest.h:4:9: private field 'f1' is not used
+./BrokenModularizationTest.h:5:9: private field 'f2' is not used
+./BrokenModularizationTest.h:6:9: private field 'f3' is not used
+./BrokenModularizationTest.h:7:9: private field 'f4' is not used
+./BrokenModularizationTest.h:8:9: private field 'f5' is not used
+./BrokenModularizationTest.h:9:9: private field 'f6' is not used
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=4 FilesWithSmells=4 TotalCodeSmells=7 
+
+./NotBrokenModularizationTest2.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrokenModularizationTest3.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrokenModularizationTest1.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotBrokenModularizationTest1.h:3:1: lazy class [Organic Class Smell] C++ class with 5 lines below the threshold of 7
+./NotBrokenModularizationTest1.h:3:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./BrokenModularizationTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./BrokenModularizationTest.h:3:1: broken modularization [Design Smell] C++ class has Broken Modularization.
+
+[OCLint (https://oclint.org) v21.10]

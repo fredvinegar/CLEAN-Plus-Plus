@@ -1,0 +1,204 @@
+
+Compiler Errors:
+(please be aware that these errors will prevent OCLint from analyzing this source code)
+
+coctx_swap.S:19:1: expected identifier or '('
+
+Compiler Warnings:
+
+co_hook_sys_call.cpp:795:19: nonnull parameter 'value' will evaluate to 'true' on first encounter
+co_hook_sys_call.cpp:940:13: using the result of an assignment as a condition without parentheses
+co_hook_sys_call.cpp:59:21: unused function 'GetPid'
+co_hook_sys_call.cpp:149:34: unused function 'get_tick_count'
+co_hook_sys_call.cpp:172:22: unused function 'diff_ms'
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=12 FilesWithSmells=4 TotalCodeSmells=183 
+
+./co_routine.h:37:16: magic number [Implementation Smell] C++ method has magic number.
+example_cond.cpp:44:47: magic number [Implementation Smell] C++ method has magic number.
+./co_routine.h:31:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example_cond.cpp:25:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example_cond.cpp:29:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./co_routine.h:28:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_routine.h:29:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_routine.h:42:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_routine.h:75:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+example_cond.cpp:25:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_routine.h:28:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine.h:29:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine.h:31:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine.h:42:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine.h:75:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_cond.cpp:25:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_cond.cpp:29:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine.h:31:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example_cond.cpp:25:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example_cond.cpp:29:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example_echocli.cpp:48:20: magic number [Implementation Smell] C++ method has magic number.
+example_echocli.cpp:39:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example_echocli.cpp:39:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_echocli.cpp:39:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./co_epoll.h:33:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./co_epoll.h:33:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_epoll.h:37:2: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_epoll.h:33:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_epoll.h:37:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_epoll.h:33:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example_poll.cpp:49:27: magic number [Implementation Smell] C++ method has magic number.
+example_poll.cpp:38:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example_poll.cpp:38:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_poll.cpp:38:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example_echosvr.cpp:49:27: magic number [Implementation Smell] C++ method has magic number.
+example_echosvr.cpp:37:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example_echosvr.cpp:37:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+example_echosvr.cpp:37:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_echosvr.cpp:37:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./coctx.h:33:14: magic number [Implementation Smell] C++ method has magic number.
+./co_routine_inner.h:73:19: magic number [Implementation Smell] C++ method has magic number.
+co_hook_sys_call.cpp:62:27: magic number [Implementation Smell] C++ method has magic number.
+co_hook_sys_call.cpp:166:29: magic number [Implementation Smell] C++ method has magic number.
+co_hook_sys_call.cpp:924:68: magic number [Implementation Smell] C++ method has magic number.
+./co_routine_inner.h:49:1: broken modularization [Design Smell] C++ class has Broken Modularization.
+co_hook_sys_call.cpp:158:1: broken modularization [Design Smell] C++ class has Broken Modularization.
+./coctx.h:23:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./coctx.h:28:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./co_routine_inner.h:25:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./co_routine_inner.h:30:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./co_routine_inner.h:39:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./co_routine_inner.h:49:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_hook_sys_call.cpp:50:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_hook_sys_call.cpp:158:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_hook_sys_call.cpp:705:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_hook_sys_call.cpp:710:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_hook_sys_call.cpp:881:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_hook_sys_call.cpp:906:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./co_routine_inner.h:49:1: large class [Organic Class Smell] C++ abstract class with 17 methods exceeds limit of 9
+./coctx.h:23:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./coctx.h:28:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_routine_inner.h:24:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_routine_inner.h:25:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_routine_inner.h:30:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_routine_inner.h:39:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_routine_inner.h:93:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_routine_inner.h:94:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./co_routine_inner.h:100:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_hook_sys_call.cpp:50:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_hook_sys_call.cpp:710:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_hook_sys_call.cpp:881:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_hook_sys_call.cpp:906:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_hook_sys_call.cpp:885:1: long statement [Implementation Smell] C++ class has long statement.
+co_hook_sys_call.cpp:914:1: long statement [Implementation Smell] C++ class has long statement.
+co_hook_sys_call.cpp:885:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+co_hook_sys_call.cpp:914:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+./coctx.h:23:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./coctx.h:28:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine_inner.h:24:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine_inner.h:25:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine_inner.h:30:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine_inner.h:39:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine_inner.h:49:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine_inner.h:93:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./co_routine_inner.h:100:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_hook_sys_call.cpp:50:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_hook_sys_call.cpp:158:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_hook_sys_call.cpp:705:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_hook_sys_call.cpp:710:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_hook_sys_call.cpp:881:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_hook_sys_call.cpp:885:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_hook_sys_call.cpp:906:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_hook_sys_call.cpp:914:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./coctx.h:23:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./coctx.h:28:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./co_routine_inner.h:25:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./co_routine_inner.h:30:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./co_routine_inner.h:39:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./co_routine_inner.h:49:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_hook_sys_call.cpp:50:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_hook_sys_call.cpp:158:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_hook_sys_call.cpp:705:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_hook_sys_call.cpp:710:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_hook_sys_call.cpp:881:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_hook_sys_call.cpp:906:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example_copystack.cpp:40:17: magic number [Implementation Smell] C++ method has magic number.
+example_specific.cpp:45:60: magic number [Implementation Smell] C++ method has magic number.
+example_specific.cpp:26:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example_specific.cpp:31:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example_specific.cpp:31:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+example_specific.cpp:36:1: long statement [Implementation Smell] C++ class has long statement.
+example_specific.cpp:36:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+example_specific.cpp:26:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_specific.cpp:31:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_specific.cpp:36:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_specific.cpp:26:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example_specific.cpp:31:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example_closure.cpp:53:14: magic number [Implementation Smell] C++ method has magic number.
+example_closure.cpp:55:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example_closure.cpp:58:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example_closure.cpp:72:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example_closure.cpp:58:3: large class [Organic Class Smell] C++ abstract class with 14 methods exceeds limit of 9
+example_closure.cpp:72:3: large class [Organic Class Smell] C++ abstract class with 13 methods exceeds limit of 9
+./co_closure.h:21:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_closure.cpp:55:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_closure.cpp:58:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_closure.cpp:72:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example_closure.cpp:55:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example_closure.cpp:58:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example_closure.cpp:72:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_routine.cpp:52:29: magic number [Implementation Smell] C++ method has magic number.
+co_routine.cpp:308:33: magic number [Implementation Smell] C++ method has magic number.
+co_routine.cpp:326:17: magic number [Implementation Smell] C++ method has magic number.
+co_routine.cpp:381:6: magic number [Implementation Smell] C++ method has magic number.
+co_routine.cpp:675:15: magic number [Implementation Smell] C++ method has magic number.
+co_routine.cpp:997:10: magic number [Implementation Smell] C++ method has magic number.
+co_routine.cpp:640:1: broken modularization [Design Smell] C++ class has Broken Modularization.
+co_routine.cpp:50:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_routine.cpp:305:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_routine.cpp:321:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_routine.cpp:340:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_routine.cpp:346:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_routine.cpp:640:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_routine.cpp:655:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_routine.cpp:990:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_routine.cpp:1043:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_routine.cpp:1051:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+co_routine.cpp:321:1: large class [Organic Class Smell] C++ abstract class with 11 methods exceeds limit of 9
+co_routine.cpp:48:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:50:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:303:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:304:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:305:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:340:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:346:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:639:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:990:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:1042:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:1043:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:1051:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+co_routine.cpp:48:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:50:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:303:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:305:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:340:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:346:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:639:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:640:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:655:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:990:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:1042:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:1043:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:1051:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+co_routine.cpp:50:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_routine.cpp:305:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_routine.cpp:321:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_routine.cpp:340:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_routine.cpp:346:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_routine.cpp:640:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_routine.cpp:655:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_routine.cpp:990:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_routine.cpp:1043:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+co_routine.cpp:1051:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+
+[OCLint (https://oclint.org) v21.10]

@@ -1,0 +1,96 @@
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+7.375
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=13 FilesWithSmells=5 TotalCodeSmells=35 
+
+dependencies/src/posix.cc:97:3: magic number [Implementation Smell] C++ method has magic number.
+lib/rpc/server.cc:24:1: long statement [Implementation Smell] C++ class has long statement.
+lib/rpc/server.cc:24:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+lib/rpc/server.cc:24:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+lib/rpc/server.cc:24:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+lib/rpc/server.cc:24:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+dependencies/src/format.cc:423:1: long identifier [Implementation Smell] C++ method has long identifier.
+dependencies/src/format.cc:537:1: long identifier [Implementation Smell] C++ method has long identifier.
+dependencies/src/format.cc:314:1: long statement [Implementation Smell] C++ class has long statement.
+dependencies/src/format.cc:341:1: long statement [Implementation Smell] C++ class has long statement.
+dependencies/src/format.cc:423:1: long statement [Implementation Smell] C++ class has long statement.
+dependencies/src/format.cc:537:1: long statement [Implementation Smell] C++ class has long statement.
+dependencies/src/format.cc:146:20: magic number [Implementation Smell] C++ method has magic number.
+dependencies/src/format.cc:665:6: magic number [Implementation Smell] C++ method has magic number.
+dependencies/src/format.cc:143:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:152:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:178:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:262:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:314:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:341:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:358:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:403:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:423:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:521:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:537:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:1350:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dependencies/src/format.cc:1350:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+lib/rpc/client.cc:29:1: long method [Implementation Smell] C++ class has long method with 59 lines.
+lib/rpc/client.cc:29:1: long statement [Implementation Smell] C++ class has long statement.
+lib/rpc/client.cc:29:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+lib/rpc/client.cc:29:1: large class [Organic Class Smell] C++ abstract class with 110 methods exceeds limit of 82
+lib/rpc/client.cc:29:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+lib/rpc/client.cc:29:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+lib/rpc/client.cc:29:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+lib/rpc/dispatcher.cc:19:10: magic number [Implementation Smell] C++ method has magic number.
+
+[OCLint (https://oclint.org) v21.10]

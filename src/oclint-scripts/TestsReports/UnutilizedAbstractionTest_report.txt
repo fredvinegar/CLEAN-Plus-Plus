@@ -1,0 +1,42 @@
+1.33333
+1.33333
+1.33333
+1.33333
+1.33333
+1.33333
+1.33333
+1.33333
+1.33333
+
+Compiler Warnings:
+
+./UnutilizedAbstractionTest2.h:5:9: private field 's1f1' is not used
+./UnutilizedAbstractionTest2.h:6:35: private field 'notUnutilizedAbstractionTest1' is not used
+./UnutilizedAbstractionTest2.h:11:9: private field 's2f1' is not used
+./UnutilizedAbstractionTest2.h:16:9: private field 'u2f1' is not used
+UnutilizedAbstractionTest1.cpp:7:1: non-void function does not return a value
+./NotUnutilizedAbstractionTest3.h:5:9: private field 'f1' is not used
+./NotUnutilizedAbstractionTest3.h:6:9: private field 'f2' is not used
+./NotUnutilizedAbstractionTest3.h:7:9: private field 'f3' is not used
+./NotUnutilizedAbstractionTest3.h:11:9: private field 'f1' is not used
+./NotUnutilizedAbstractionTest3.h:12:9: private field 'f2' is not used
+./NotUnutilizedAbstractionTest3.h:13:9: private field 'f3' is not used
+./UnutilizedAbstractionTest1.h:7:17: private field 'superClass3' is not used
+./UnutilizedAbstractionTest1.h:8:9: private field 'u1f2' is not used
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=5 FilesWithSmells=4 TotalCodeSmells=9 
+
+./UnutilizedAbstractionTest2.h:4:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./UnutilizedAbstractionTest2.h:10:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./UnutilizedAbstractionTest2.h:15:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotUnutilizedAbstractionTest1.h:4:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+./UnutilizedAbstractionTest2.h:15:1: lazy class [Organic Class Smell] C++ class with 3 lines below the threshold of 4
+./NotUnutilizedAbstractionTest1.h:4:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./UnutilizedAbstractionTest2.h:15:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./UnutilizedAbstractionTest1.h:6:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotUnutilizedAbstractionTest3.h:4:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

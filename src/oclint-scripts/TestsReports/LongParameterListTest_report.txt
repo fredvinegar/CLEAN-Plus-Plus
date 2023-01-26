@@ -1,0 +1,19 @@
+1
+1
+1
+1
+1
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=5 FilesWithSmells=5 TotalCodeSmells=6 
+
+./NotLongParameterListTest1.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotLongParameterListTest2.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotLongParameterListTest4.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./LongParameterListTest.h:3:1: long parameter list [Implementation Smell] func1: method with 4 parameters
+./LongParameterListTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotLongParameterListTest3.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

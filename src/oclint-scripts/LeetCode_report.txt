@@ -1,0 +1,55 @@
+
+Compiler Warnings:
+
+/robo/projects/LeetCode/tests/Divide_Conquer/315.Count-of-Smaller-Numbers-After-Self/315.binary-indexed-tree.h:10:31: 'count_v2' has C-linkage specified, but returns incomplete type 'std::vector<int>' which could be incompatible with C
+/robo/projects/LeetCode/tests/Divide_Conquer/315.Count-of-Smaller-Numbers-After-Self/315.binary-indexed-tree.h:10:31: 'count_v2' has C-linkage specified, but returns user-defined type 'std::vector<int>' which is incompatible with C
+/robo/projects/LeetCode/tests/Divide_Conquer/315.Count-of-Smaller-Numbers-After-Self/315.divided-conquer.h:10:31: 'count_v1' has C-linkage specified, but returns user-defined type 'std::vector<int>' which is incompatible with C
+/robo/projects/LeetCode/tests/Divide_Conquer/315.Count-of-Smaller-Numbers-After-Self/315.divided-conquer.h:10:31: 'count_v1' has C-linkage specified, but returns incomplete type 'std::vector<int>' which could be incompatible with C
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=10 FilesWithSmells=4 TotalCodeSmells=40 
+
+315.Count-of-Smaller-Numbers-After-Self.t.cpp:59:1: long method [Implementation Smell] C++ class has long method with 32 lines.
+315.Count-of-Smaller-Numbers-After-Self.t.cpp:25:3: magic number [Implementation Smell] C++ method has magic number.
+315.Count-of-Smaller-Numbers-After-Self.t.cpp:50:1: magic number [Implementation Smell] C++ method has magic number.
+315.Count-of-Smaller-Numbers-After-Self.t.cpp:59:1: magic number [Implementation Smell] C++ method has magic number.
+315.Count-of-Smaller-Numbers-After-Self.t.cpp:59:1: long statement [Implementation Smell] C++ class has long statement.
+315.Count-of-Smaller-Numbers-After-Self.t.cpp:50:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+315.Count-of-Smaller-Numbers-After-Self.t.cpp:59:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+315.Count-of-Smaller-Numbers-After-Self.t.cpp:50:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+315.Count-of-Smaller-Numbers-After-Self.t.cpp:59:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+1027.Longest-Arithmetic-Sequence.t.cpp:8:1: magic number [Implementation Smell] C++ method has magic number.
+1027.Longest-Arithmetic-Sequence.t.cpp:15:1: magic number [Implementation Smell] C++ method has magic number.
+1027.Longest-Arithmetic-Sequence.t.cpp:22:1: magic number [Implementation Smell] C++ method has magic number.
+1027.Longest-Arithmetic-Sequence.t.cpp:8:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+1027.Longest-Arithmetic-Sequence.t.cpp:15:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+1027.Longest-Arithmetic-Sequence.t.cpp:22:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+1027.Longest-Arithmetic-Sequence.t.cpp:8:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+1027.Longest-Arithmetic-Sequence.t.cpp:15:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+1027.Longest-Arithmetic-Sequence.t.cpp:22:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+1036.Escape-a-Large-Maze.t.cpp:33:1: long method [Implementation Smell] C++ class has long method with 33 lines.
+1036.Escape-a-Large-Maze.t.cpp:11:1: magic number [Implementation Smell] C++ method has magic number.
+1036.Escape-a-Large-Maze.t.cpp:23:1: magic number [Implementation Smell] C++ method has magic number.
+1036.Escape-a-Large-Maze.t.cpp:33:1: magic number [Implementation Smell] C++ method has magic number.
+1036.Escape-a-Large-Maze.t.cpp:33:1: long statement [Implementation Smell] C++ class has long statement.
+1036.Escape-a-Large-Maze.t.cpp:11:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+1036.Escape-a-Large-Maze.t.cpp:23:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+1036.Escape-a-Large-Maze.t.cpp:33:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+1036.Escape-a-Large-Maze.t.cpp:11:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+1036.Escape-a-Large-Maze.t.cpp:23:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+1036.Escape-a-Large-Maze.t.cpp:33:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+072.Edit-Distance.t.cpp:33:1: long method [Implementation Smell] C++ class has long method with 44 lines.
+072.Edit-Distance.t.cpp:15:1: magic number [Implementation Smell] C++ method has magic number.
+072.Edit-Distance.t.cpp:24:1: magic number [Implementation Smell] C++ method has magic number.
+072.Edit-Distance.t.cpp:33:1: magic number [Implementation Smell] C++ method has magic number.
+072.Edit-Distance.t.cpp:33:1: long statement [Implementation Smell] C++ class has long statement.
+072.Edit-Distance.t.cpp:15:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+072.Edit-Distance.t.cpp:24:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+072.Edit-Distance.t.cpp:33:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+072.Edit-Distance.t.cpp:15:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+072.Edit-Distance.t.cpp:24:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+072.Edit-Distance.t.cpp:33:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

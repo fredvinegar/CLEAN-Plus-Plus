@@ -1,0 +1,23 @@
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=2 FilesWithSmells=2 TotalCodeSmells=6 
+
+./RefusedBequestTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./RefusedBequestTest.h:9:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./RefusedBequestTest.h:9:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+./NotRefusedBequestTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotRefusedBequestTest.h:9:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotRefusedBequestTest.h:9:1: lazy class [Organic Class Smell] C++ class with 3 lines below the threshold of 4
+
+[OCLint (https://oclint.org) v21.10]

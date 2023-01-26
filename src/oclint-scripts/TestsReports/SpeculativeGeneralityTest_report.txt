@@ -1,0 +1,36 @@
+3
+3
+3
+3
+3
+
+Compiler Warnings:
+
+SpeculativeGeneralityTest.cpp:5:13: unused variable 'v'
+SpeculativeGeneralityTest.cpp:9:13: unused variable 'v'
+NotSpeculativeGeneralityTest.cpp:6:13: unused variable 'v'
+NotSpeculativeGeneralityTest.cpp:10:13: unused variable 'v'
+NotSpeculativeGeneralityTest.cpp:14:13: unused variable 'v'
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=2 FilesWithSmells=2 TotalCodeSmells=15 
+
+./SpeculativeGeneralityTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./SpeculativeGeneralityTest.h:7:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./SpeculativeGeneralityTest.h:11:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./SpeculativeGeneralityTest.h:7:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+./SpeculativeGeneralityTest.h:11:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+./SpeculativeGeneralityTest.h:3:1: speculative generality [Organic Class Smell] C++ abstract class with 2 children under the limit of 3
+NotSpeculativeGeneralityTest.cpp:14:17: magic number [Implementation Smell] C++ method has magic number.
+./NotSpeculativeGeneralityTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotSpeculativeGeneralityTest.h:7:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotSpeculativeGeneralityTest.h:11:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotSpeculativeGeneralityTest.h:15:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotSpeculativeGeneralityTest.h:7:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+./NotSpeculativeGeneralityTest.h:11:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+./NotSpeculativeGeneralityTest.h:15:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+./NotSpeculativeGeneralityTest.h:3:1: speculative generality [Organic Class Smell] C++ abstract class with 1 children under the limit of 3
+
+[OCLint (https://oclint.org) v21.10]

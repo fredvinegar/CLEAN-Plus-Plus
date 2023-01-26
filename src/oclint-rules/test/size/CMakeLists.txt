@@ -1,0 +1,13 @@
+BUILD_TEST(SizeTests
+    CyclomaticComplexityRuleTest.cpp
+    LongClassRuleTest.cpp
+    LongLineRuleTest.cpp
+    LongMethodRuleTest.cpp
+    NPathComplexityRuleTest.cpp
+    NcssMethodCountRuleTest.cpp
+    NestedBlockDepthRuleTest.cpp
+    TooManyFieldsRuleTest.cpp
+    TooManyMethodsRuleTest.cpp
+    TooManyParametersRuleTest.cpp
+    ComplexClassRuleTest.cpp
+)

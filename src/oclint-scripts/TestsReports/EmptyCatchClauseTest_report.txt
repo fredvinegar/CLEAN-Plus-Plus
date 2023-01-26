@@ -1,0 +1,13 @@
+12
+12
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=2 FilesWithSmells=2 TotalCodeSmells=3 
+
+./EmptyCatchClauseTest.h:3:1: empty catch clause [Implementation Smell] C++ class has empty catch clause.
+./EmptyCatchClauseTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotEmptyCatchClauseTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

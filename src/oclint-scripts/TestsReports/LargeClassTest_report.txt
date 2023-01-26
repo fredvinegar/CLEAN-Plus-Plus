@@ -1,0 +1,38 @@
+5
+5
+
+Compiler Warnings:
+
+./LargeClassTest.h:7:9: private field 'f4' is not used
+./LargeClassTest.h:8:9: private field 'f5' is not used
+./NotLargeClassTest.h:4:9: private field 'f1' is not used
+./NotLargeClassTest.h:8:9: private field 'f1' is not used
+./NotLargeClassTest.h:12:9: private field 'f1' is not used
+./NotLargeClassTest.h:16:9: private field 'f1' is not used
+./NotLargeClassTest.h:20:9: private field 'f1' is not used
+./NotLargeClassTest.h:24:9: private field 'f1' is not used
+./NotLargeClassTest.h:28:9: private field 'f1' is not used
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=2 FilesWithSmells=2 TotalCodeSmells=16 
+
+./LargeClassTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./LargeClassTest.h:3:1: large class [Organic Class Smell] C++ abstract class with 17 methods exceeds limit of 14
+./NotLargeClassTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotLargeClassTest.h:7:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotLargeClassTest.h:11:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotLargeClassTest.h:15:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotLargeClassTest.h:19:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotLargeClassTest.h:23:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotLargeClassTest.h:27:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotLargeClassTest.h:3:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotLargeClassTest.h:7:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotLargeClassTest.h:11:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotLargeClassTest.h:15:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotLargeClassTest.h:19:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotLargeClassTest.h:23:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotLargeClassTest.h:27:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

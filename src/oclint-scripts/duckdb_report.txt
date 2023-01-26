@@ -1,0 +1,568 @@
+
+Compiler Warnings:
+
+/robo/projects/duckdb/test/common/test_cast.cpp:80:15: implicit conversion from 'int64_t' (aka 'long') to 'double' changes value from 9223372036854775807 to 9223372036854775808
+/robo/projects/duckdb/test/common/test_cast.cpp:90:16: implicit conversion from 'int64_t' (aka 'long') to 'double' changes value from 9223372036854775807 to 9223372036854775808
+/robo/projects/duckdb/src/include/duckdb/common/progress_bar/display/terminal_progress_bar_display.hpp:20:41: class with destructor marked 'final' cannot be inherited from
+/robo/projects/duckdb/test/api/capi/test_capi.cpp:352:2: implicit conversion from 'long' to 'float' changes value from 49082094824 to 49082093568
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=275 FilesWithSmells=45 TotalCodeSmells=553 
+
+src/tsd.cpp:38:2: lazy class [Organic Class Smell] C++ class with 3 lines below the threshold of 4
+src/tsd.cpp:60:9: lazy class [Organic Class Smell] C++ class with 3 lines below the threshold of 4
+src/tsd.cpp:50:2: magic number [Implementation Smell] C++ method has magic number.
+src/tsd.cpp:37:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/tsd.cpp:38:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/tsd.cpp:60:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/tsd.cpp:37:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/tsd.cpp:60:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/tsd.cpp:37:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/tsd.cpp:37:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/tsd.cpp:38:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/tsd.cpp:60:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+sqlite3_api_wrapper.cpp:76:37: magic number [Implementation Smell] C++ method has magic number.
+sqlite3_api_wrapper.cpp:40:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+sqlite3_api_wrapper.cpp:47:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+sqlite3_api_wrapper.cpp:40:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+sqlite3_api_wrapper.cpp:47:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+sqlite3_api_wrapper.cpp:40:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+sqlite3_api_wrapper.cpp:47:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_sys.cpp:350:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/prof_sys.cpp:373:2: magic number [Implementation Smell] C++ method has magic number.
+src/prof_sys.cpp:351:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_sys.cpp:350:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/prof_sys.cpp:351:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/prof_sys.cpp:350:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_sys.cpp:351:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_sys.cpp:351:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+sql_auto_complete_extension.cpp:52:30: magic number [Implementation Smell] C++ method has magic number.
+sql_auto_complete_extension.cpp:18:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+sql_auto_complete_extension.cpp:27:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+sql_auto_complete_extension.cpp:34:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+sql_auto_complete_extension.cpp:18:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+sql_auto_complete_extension.cpp:27:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+sql_auto_complete_extension.cpp:34:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+sql_auto_complete_extension.cpp:18:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+sql_auto_complete_extension.cpp:27:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+sql_auto_complete_extension.cpp:34:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/regexp.cc:567:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/regexp.cc:613:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/regexp.cc:549:5: magic number [Implementation Smell] C++ method has magic number.
+re2/regexp.cc:567:1: long statement [Implementation Smell] C++ class has long statement.
+re2/regexp.cc:613:1: long statement [Implementation Smell] C++ class has long statement.
+re2/regexp.cc:567:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/regexp.cc:613:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/regexp.cc:537:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/regexp.cc:567:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/regexp.cc:613:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/regexp.cc:537:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+library/asn1parse.cpp:351:21: magic number [Implementation Smell] C++ method has magic number.
+library/asn1parse.cpp:329:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+library/asn1parse.cpp:329:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+library/asn1parse.cpp:329:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/nfa.cc:44:1: brain method [Organic Method Smell] C++ class has brain method.
+re2/nfa.cc:44:1: complex class [Organic Class Smell] C++ class has complex method.
+re2/nfa.cc:44:1: long method [Implementation Smell] C++ class has long method with 138 lines.
+re2/nfa.cc:44:1: long method [Implementation Smell] C++ class has long method with 119 lines.
+re2/nfa.cc:44:1: long method [Implementation Smell] C++ class has long method with 90 lines.
+re2/nfa.cc:44:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/nfa.cc:138:16: magic number [Implementation Smell] C++ method has magic number.
+re2/nfa.cc:44:1: long parameter list [Implementation Smell] Search: method with 6 parameters
+re2/nfa.cc:44:1: long parameter list [Implementation Smell] AddToThreadq: method with 6 parameters
+re2/nfa.cc:44:1: long parameter list [Implementation Smell] Step: method with 5 parameters
+re2/nfa.cc:65:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/nfa.cc:66:5: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/nfa.cc:74:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/nfa.cc:44:1: large class [Organic Class Smell] C++ abstract class with 437 methods exceeds limit of 423
+re2/nfa.cc:44:1: message chain [Organic Method Smell] C++ class has message chain.
+re2/nfa.cc:44:1: long statement [Implementation Smell] C++ class has long statement.
+re2/nfa.cc:44:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/nfa.cc:65:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/nfa.cc:74:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/nfa.cc:44:1: complex method [Implementation Smell] C++ class has complex method.
+re2/nfa.cc:65:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/nfa.cc:66:5: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/nfa.cc:74:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/tcache.cpp:673:38: magic number [Implementation Smell] C++ method has magic number.
+src/tcache.cpp:660:25: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/tcache.cpp:660:25: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/tcache.cpp:660:25: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/onepass.cc:166:37: magic number [Implementation Smell] C++ method has magic number.
+re2/onepass.cc:144:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/onepass.cc:362:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/onepass.cc:144:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+re2/onepass.cc:362:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+re2/onepass.cc:144:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/onepass.cc:362:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/onepass.cc:144:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/onepass.cc:362:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+boolean_operators.cpp:165:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+boolean_operators.cpp:79:1: long parameter list [Implementation Smell] Operation: method with 5 parameters
+boolean_operators.cpp:132:1: long parameter list [Implementation Smell] Operation: method with 5 parameters
+boolean_operators.cpp:165:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+boolean_operators.cpp:79:1: long statement [Implementation Smell] C++ class has long statement.
+boolean_operators.cpp:132:1: long statement [Implementation Smell] C++ class has long statement.
+boolean_operators.cpp:79:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+boolean_operators.cpp:132:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+boolean_operators.cpp:165:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/div.cpp:35:2: magic number [Implementation Smell] C++ method has magic number.
+comparison_operators.cpp:89:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+comparison_operators.cpp:199:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+comparison_operators.cpp:89:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+comparison_operators.cpp:199:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+comparison_operators.cpp:89:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+comparison_operators.cpp:199:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pac.cpp:116:34: magic number [Implementation Smell] C++ method has magic number.
+re2/dfa.cc:109:3: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+re2/dfa.cc:110:3: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+re2/dfa.cc:111:3: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+re2/dfa.cc:73:1: complex class [Organic Class Smell] C++ class has complex method.
+re2/dfa.cc:73:1: long method [Implementation Smell] C++ class has long method with 40 lines.
+re2/dfa.cc:73:1: long method [Implementation Smell] C++ class has long method with 36 lines.
+re2/dfa.cc:73:1: long method [Implementation Smell] C++ class has long method with 66 lines.
+re2/dfa.cc:73:1: long method [Implementation Smell] C++ class has long method with 135 lines.
+re2/dfa.cc:73:1: long method [Implementation Smell] C++ class has long method with 119 lines.
+re2/dfa.cc:73:1: long method [Implementation Smell] C++ class has long method with 45 lines.
+re2/dfa.cc:73:1: long method [Implementation Smell] C++ class has long method with 92 lines.
+re2/dfa.cc:73:1: long method [Implementation Smell] C++ class has long method with 43 lines.
+re2/dfa.cc:73:1: long method [Implementation Smell] C++ class has long method with 83 lines.
+re2/dfa.cc:73:1: long method [Implementation Smell] C++ class has long method with 64 lines.
+re2/dfa.cc:73:1: long method [Implementation Smell] C++ class has long method with 213 lines.
+re2/dfa.cc:73:1: shotgun surgery [Organic Method Smell] C++ class has shotgun surgery.
+re2/dfa.cc:73:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/dfa.cc:376:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/dfa.cc:1083:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/dfa.cc:1164:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/dfa.cc:137:40: magic number [Implementation Smell] C++ method has magic number.
+re2/dfa.cc:73:1: long parameter list [Implementation Smell] Search: method with 8 parameters
+re2/dfa.cc:73:1: long parameter list [Implementation Smell] RunWorkqOnByte: method with 5 parameters
+re2/dfa.cc:73:1: long parameter list [Implementation Smell] InlinedSearchLoop: method with 4 parameters
+re2/dfa.cc:116:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/dfa.cc:248:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/dfa.cc:282:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/dfa.cc:73:1: complex conditional [Implementation Smell] C++ class has complex conditional.
+re2/dfa.cc:73:1: large class [Organic Class Smell] C++ abstract class with 1153 methods exceeds limit of 423
+re2/dfa.cc:73:1: message chain [Organic Method Smell] C++ class has message chain.
+re2/dfa.cc:109:3: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+re2/dfa.cc:110:3: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+re2/dfa.cc:111:3: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+re2/dfa.cc:73:1: long statement [Implementation Smell] C++ class has long statement.
+re2/dfa.cc:73:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/dfa.cc:159:3: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/dfa.cc:109:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/dfa.cc:110:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/dfa.cc:111:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/dfa.cc:116:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/dfa.cc:148:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/dfa.cc:159:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/dfa.cc:248:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/dfa.cc:282:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/dfa.cc:376:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/dfa.cc:1083:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/dfa.cc:1164:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/dfa.cc:73:1: complex method [Implementation Smell] C++ class has complex method.
+re2/dfa.cc:73:1: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+re2/dfa.cc:116:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/dfa.cc:248:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/dfa.cc:282:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/dfa.cc:73:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+src_backend_parser_scan.cpp:442:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src_backend_parser_scan.cpp:626:37: magic number [Implementation Smell] C++ method has magic number.
+src_backend_parser_scan.cpp:474:1: broken modularization [Design Smell] C++ class has Broken Modularization.
+src_backend_parser_scan.cpp:474:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src_backend_parser_scan.cpp:621:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src_backend_parser_scan.cpp:1325:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src_backend_parser_scan.cpp:442:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src_backend_parser_scan.cpp:621:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src_backend_parser_scan.cpp:442:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src_backend_parser_scan.cpp:474:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src_backend_parser_scan.cpp:621:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src_backend_parser_scan.cpp:1325:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src_backend_parser_scan.cpp:474:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src_backend_parser_scan.cpp:621:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src_backend_parser_scan.cpp:1325:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/prefilter.cc:231:3: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+re2/prefilter.cc:472:1: long method [Implementation Smell] C++ class has long method with 110 lines.
+re2/prefilter.cc:201:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/prefilter.cc:396:16: magic number [Implementation Smell] C++ method has magic number.
+re2/prefilter.cc:472:1: long parameter list [Implementation Smell] PostVisit: method with 5 parameters
+re2/prefilter.cc:231:3: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+re2/prefilter.cc:201:1: long statement [Implementation Smell] C++ class has long statement.
+re2/prefilter.cc:472:1: long statement [Implementation Smell] C++ class has long statement.
+re2/prefilter.cc:201:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/prefilter.cc:231:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/prefilter.cc:472:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/prefilter.cc:201:1: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+re2/prefilter.cc:201:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+re2/prefilter.cc:472:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+loadable_extension_optimizer_demo.cpp:25:1: long method [Implementation Smell] C++ class has long method with 66 lines.
+loadable_extension_optimizer_demo.cpp:79:24: magic number [Implementation Smell] C++ method has magic number.
+loadable_extension_optimizer_demo.cpp:25:1: long statement [Implementation Smell] C++ class has long statement.
+loadable_extension_optimizer_demo.cpp:25:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+format.cc:124:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+format.cc:46:28: magic number [Implementation Smell] C++ method has magic number.
+format.cc:26:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+format.cc:124:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+format.cc:26:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+format.cc:124:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+format.cc:26:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+vector_hash.cpp:14:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+vector_hash.cpp:15:34: magic number [Implementation Smell] C++ method has magic number.
+vector_hash.cpp:14:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+vector_hash.cpp:14:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+libfsst.cpp:35:22: magic number [Implementation Smell] C++ method has magic number.
+hyperloglog.cpp:197:16: magic number [Implementation Smell] C++ method has magic number.
+hyperloglog.cpp:196:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+hyperloglog.cpp:196:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+hyperloglog.cpp:196:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_data.cpp:750:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/prof_data.cpp:826:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/prof_data.cpp:893:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/prof_data.cpp:90:1: magic number [Implementation Smell] C++ method has magic number.
+src/prof_data.cpp:90:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_data.cpp:105:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_data.cpp:124:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_data.cpp:265:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_data.cpp:269:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_data.cpp:329:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_data.cpp:751:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_data.cpp:827:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_data.cpp:894:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_data.cpp:908:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_data.cpp:1069:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_data.cpp:750:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/prof_data.cpp:751:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/prof_data.cpp:826:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/prof_data.cpp:827:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/prof_data.cpp:893:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/prof_data.cpp:894:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/prof_data.cpp:750:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_data.cpp:751:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_data.cpp:826:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_data.cpp:827:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_data.cpp:893:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_data.cpp:894:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_data.cpp:90:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_data.cpp:105:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_data.cpp:124:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_data.cpp:265:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_data.cpp:269:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_data.cpp:329:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_data.cpp:751:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_data.cpp:827:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_data.cpp:894:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_data.cpp:908:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_data.cpp:1069:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+library/pk_wrap.cpp:74:13: magic number [Implementation Smell] C++ method has magic number.
+library/pk_wrap.h:30:1: broken modularization [Design Smell] C++ class has Broken Modularization.
+library/pk_wrap.h:30:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+library/pk_wrap.h:30:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+library/pk_wrap.h:30:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+library/sha256.cpp:186:21: magic number [Implementation Smell] C++ method has magic number.
+library/sha256.cpp:175:5: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+library/sha256.cpp:175:5: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/ckh.cpp:562:2: magic number [Implementation Smell] C++ method has magic number.
+src/ckh.cpp:557:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/ckh.cpp:557:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+pg_functions.cpp:17:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+pg_functions.cpp:21:18: magic number [Implementation Smell] C++ method has magic number.
+pg_functions.cpp:18:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+pg_functions.cpp:17:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+pg_functions.cpp:17:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+pg_functions.cpp:18:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+pg_functions.cpp:18:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+library/oid.cpp:259:1: magic number [Implementation Smell] C++ method has magic number.
+library/oid.cpp:273:9: magic number [Implementation Smell] C++ method has magic number.
+library/oid.cpp:433:1: magic number [Implementation Smell] C++ method has magic number.
+library/oid.cpp:469:1: magic number [Implementation Smell] C++ method has magic number.
+library/oid.cpp:649:1: magic number [Implementation Smell] C++ method has magic number.
+library/oid.cpp:699:1: magic number [Implementation Smell] C++ method has magic number.
+library/oid.cpp:165:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+library/oid.cpp:264:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+library/oid.cpp:334:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+library/oid.cpp:443:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+library/oid.cpp:593:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+library/oid.cpp:655:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+library/oid.cpp:165:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+library/oid.cpp:264:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+library/oid.cpp:334:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+library/oid.cpp:443:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+library/oid.cpp:593:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+library/oid.cpp:655:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+linenoise.cpp:197:11: magic number [Implementation Smell] C++ method has magic number.
+linenoise.cpp:547:13: magic number [Implementation Smell] C++ method has magic number.
+linenoise.cpp:871:16: magic number [Implementation Smell] C++ method has magic number.
+linenoise.cpp:147:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+linenoise.cpp:166:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+linenoise.cpp:175:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+linenoise.cpp:510:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+linenoise.cpp:684:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+linenoise.cpp:147:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+linenoise.cpp:166:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+linenoise.cpp:175:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+linenoise.cpp:510:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+linenoise.cpp:684:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+linenoise.cpp:147:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+linenoise.cpp:166:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+linenoise.cpp:175:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+linenoise.cpp:510:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+linenoise.cpp:684:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/prog.cc:337:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/prog.cc:343:17: magic number [Implementation Smell] C++ method has magic number.
+re2/prog.cc:337:1: long statement [Implementation Smell] C++ class has long statement.
+re2/prog.cc:337:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/tostring.cc:37:1: complex class [Organic Class Smell] C++ class has complex method.
+re2/tostring.cc:37:1: long method [Implementation Smell] C++ class has long method with 60 lines.
+re2/tostring.cc:37:1: long method [Implementation Smell] C++ class has long method with 156 lines.
+re2/tostring.cc:37:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/tostring.cc:58:41: magic number [Implementation Smell] C++ method has magic number.
+re2/tostring.cc:37:1: missing default [Implementation Smell] C++ method missing default.
+re2/tostring.cc:37:1: long parameter list [Implementation Smell] PostVisit: method with 5 parameters
+re2/tostring.cc:37:1: long statement [Implementation Smell] C++ class has long statement.
+re2/tostring.cc:37:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/tostring.cc:37:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/tostring.cc:37:1: complex method [Implementation Smell] C++ class has complex method.
+src/hook.cpp:12:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/hook.cpp:18:1: magic number [Implementation Smell] C++ method has magic number.
+src/hook.cpp:13:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/hook.cpp:18:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/hook.cpp:12:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/hook.cpp:12:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/hook.cpp:13:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/hook.cpp:13:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/hook.cpp:18:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/mimics_pcre.cc:38:1: complex class [Organic Class Smell] C++ class has complex method.
+re2/mimics_pcre.cc:38:1: long method [Implementation Smell] C++ class has long method with 45 lines.
+re2/mimics_pcre.cc:115:1: long method [Implementation Smell] C++ class has long method with 43 lines.
+re2/mimics_pcre.cc:46:5: magic number [Implementation Smell] C++ method has magic number.
+re2/mimics_pcre.cc:115:1: missing default [Implementation Smell] C++ method missing default.
+re2/mimics_pcre.cc:38:1: long parameter list [Implementation Smell] PostVisit: method with 5 parameters
+re2/mimics_pcre.cc:115:1: long parameter list [Implementation Smell] PostVisit: method with 5 parameters
+re2/mimics_pcre.cc:38:1: long statement [Implementation Smell] C++ class has long statement.
+re2/mimics_pcre.cc:115:1: long statement [Implementation Smell] C++ class has long statement.
+re2/mimics_pcre.cc:38:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/mimics_pcre.cc:115:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/mimics_pcre.cc:38:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/mimics_pcre.cc:115:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/mimics_pcre.cc:38:1: complex method [Implementation Smell] C++ class has complex method.
+src/jemalloc.cpp:2199:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/jemalloc.cpp:2270:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/jemalloc.cpp:357:3: magic number [Implementation Smell] C++ method has magic number.
+src/jemalloc.cpp:251:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/jemalloc.cpp:2200:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/jemalloc.cpp:2271:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/jemalloc.cpp:251:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/jemalloc.cpp:2199:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/jemalloc.cpp:2270:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/jemalloc.cpp:2199:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/jemalloc.cpp:2200:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/jemalloc.cpp:2270:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/jemalloc.cpp:2271:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/jemalloc.cpp:251:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/jemalloc.cpp:2200:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/jemalloc.cpp:2271:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/compile.cc:127:1: long method [Implementation Smell] C++ class has long method with 47 lines.
+re2/compile.cc:127:1: long method [Implementation Smell] C++ class has long method with 41 lines.
+re2/compile.cc:127:1: long method [Implementation Smell] C++ class has long method with 144 lines.
+re2/compile.cc:127:1: long method [Implementation Smell] C++ class has long method with 98 lines.
+re2/compile.cc:127:1: long method [Implementation Smell] C++ class has long method with 57 lines.
+re2/compile.cc:127:1: long method [Implementation Smell] C++ class has long method with 31 lines.
+re2/compile.cc:127:1: long method [Implementation Smell] C++ class has long method with 33 lines.
+re2/compile.cc:127:1: long method [Implementation Smell] C++ class has long method with 34 lines.
+re2/compile.cc:38:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/compile.cc:127:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/compile.cc:281:13: magic number [Implementation Smell] C++ method has magic number.
+re2/compile.cc:127:1: missing default [Implementation Smell] C++ method missing default.
+re2/compile.cc:127:1: long parameter list [Implementation Smell] PostVisit: method with 5 parameters
+re2/compile.cc:127:1: long parameter list [Implementation Smell] UncachedRuneByteSuffix: method with 4 parameters
+re2/compile.cc:127:1: long parameter list [Implementation Smell] CachedRuneByteSuffix: method with 4 parameters
+re2/compile.cc:38:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/compile.cc:113:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/compile.cc:672:8: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/compile.cc:127:1: complex conditional [Implementation Smell] C++ class has complex conditional.
+re2/compile.cc:127:1: large class [Organic Class Smell] C++ abstract class with 786 methods exceeds limit of 423
+re2/compile.cc:38:1: long statement [Implementation Smell] C++ class has long statement.
+re2/compile.cc:127:1: long statement [Implementation Smell] C++ class has long statement.
+re2/compile.cc:38:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/compile.cc:127:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/compile.cc:113:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/compile.cc:127:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/compile.cc:672:8: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/compile.cc:127:1: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+re2/compile.cc:127:1: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+re2/compile.cc:38:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/compile.cc:113:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/compile.cc:672:8: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/compile.cc:38:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+re2/compile.cc:127:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+re2/parse.cc:71:1: complex class [Organic Class Smell] C++ class has complex method.
+re2/parse.cc:71:1: long method [Implementation Smell] C++ class has long method with 32 lines.
+re2/parse.cc:71:1: long method [Implementation Smell] C++ class has long method with 34 lines.
+re2/parse.cc:71:1: long method [Implementation Smell] C++ class has long method with 48 lines.
+re2/parse.cc:71:1: long method [Implementation Smell] C++ class has long method with 37 lines.
+re2/parse.cc:71:1: long method [Implementation Smell] C++ class has long method with 104 lines.
+re2/parse.cc:71:1: long method [Implementation Smell] C++ class has long method with 141 lines.
+re2/parse.cc:71:1: long method [Implementation Smell] C++ class has long method with 39 lines.
+re2/parse.cc:71:1: long method [Implementation Smell] C++ class has long method with 45 lines.
+re2/parse.cc:909:1: long method [Implementation Smell] C++ class has long method with 49 lines.
+re2/parse.cc:909:1: long method [Implementation Smell] C++ class has long method with 61 lines.
+re2/parse.cc:909:1: long method [Implementation Smell] C++ class has long method with 52 lines.
+re2/parse.cc:71:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/parse.cc:192:66: magic number [Implementation Smell] C++ method has magic number.
+re2/parse.cc:71:1: missing default [Implementation Smell] C++ method missing default.
+re2/parse.cc:71:1: long parameter list [Implementation Smell] PushRepetition: method with 4 parameters
+re2/parse.cc:71:1: long parameter list [Implementation Smell] ParseCCCharacter: method with 4 parameters
+re2/parse.cc:71:1: long parameter list [Implementation Smell] ParseCCRange: method with 4 parameters
+re2/parse.cc:521:1: long parameter list [Implementation Smell] PostVisit: method with 5 parameters
+re2/parse.cc:909:1: long parameter list [Implementation Smell] Round1: method with 4 parameters
+re2/parse.cc:909:1: long parameter list [Implementation Smell] Round2: method with 4 parameters
+re2/parse.cc:909:1: long parameter list [Implementation Smell] Round3: method with 4 parameters
+re2/parse.cc:877:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/parse.cc:894:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/parse.cc:71:1: complex conditional [Implementation Smell] C++ class has complex conditional.
+re2/parse.cc:71:1: large class [Organic Class Smell] C++ abstract class with 694 methods exceeds limit of 423
+re2/parse.cc:71:1: long statement [Implementation Smell] C++ class has long statement.
+re2/parse.cc:909:1: long statement [Implementation Smell] C++ class has long statement.
+re2/parse.cc:71:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/parse.cc:521:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/parse.cc:909:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/parse.cc:71:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/parse.cc:521:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/parse.cc:877:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/parse.cc:894:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/parse.cc:909:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/parse.cc:71:1: complex method [Implementation Smell] C++ class has complex method.
+re2/parse.cc:71:1: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+re2/parse.cc:877:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/parse.cc:894:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/parse.cc:71:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+library/pk.cpp:139:17: magic number [Implementation Smell] C++ method has magic number.
+loadable_extension_demo.cpp:103:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+loadable_extension_demo.cpp:160:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+loadable_extension_demo.cpp:148:62: magic number [Implementation Smell] C++ method has magic number.
+loadable_extension_demo.cpp:103:1: long parameter list [Implementation Smell] QuackBind: method with 4 parameters
+loadable_extension_demo.cpp:113:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+loadable_extension_demo.cpp:120:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+loadable_extension_demo.cpp:160:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+loadable_extension_demo.cpp:103:1: long statement [Implementation Smell] C++ class has long statement.
+loadable_extension_demo.cpp:171:1: long statement [Implementation Smell] C++ class has long statement.
+loadable_extension_demo.cpp:171:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+loadable_extension_demo.cpp:103:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+loadable_extension_demo.cpp:113:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+loadable_extension_demo.cpp:120:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+loadable_extension_demo.cpp:171:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+loadable_extension_demo.cpp:113:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+loadable_extension_demo.cpp:120:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+loadable_extension_demo.cpp:160:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+loadable_extension_demo.cpp:160:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+loadable_extension_demo.cpp:171:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+miniz.cpp:30:63: magic number [Implementation Smell] C++ method has magic number.
+miniz.cpp:349:9: broken modularization [Design Smell] C++ class has Broken Modularization.
+miniz.cpp:3134:1: broken modularization [Design Smell] C++ class has Broken Modularization.
+miniz.cpp:349:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+miniz.cpp:555:12: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+miniz.cpp:692:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+miniz.cpp:1961:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+miniz.cpp:3127:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+miniz.cpp:3134:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+miniz.cpp:5811:9: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+miniz.cpp:3134:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+miniz.cpp:349:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+miniz.cpp:555:12: class data should be private [Organic Class Smell] C++ class having at least one public field.
+miniz.cpp:692:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+miniz.cpp:1961:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+miniz.cpp:3127:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+miniz.cpp:3134:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+miniz.cpp:5811:9: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/ctl.cpp:4241:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/ctl.cpp:4272:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/ctl.cpp:998:45: magic number [Implementation Smell] C++ method has magic number.
+src/ctl.cpp:992:4: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/ctl.cpp:4242:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/ctl.cpp:4273:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/ctl.cpp:992:4: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/ctl.cpp:4241:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/ctl.cpp:4272:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/ctl.cpp:992:4: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/ctl.cpp:4241:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/ctl.cpp:4242:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/ctl.cpp:4272:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/ctl.cpp:4273:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/ctl.cpp:992:4: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/ctl.cpp:4242:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/ctl.cpp:4273:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+is_distinct_from.cpp:6:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+is_distinct_from.cpp:334:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+is_distinct_from.cpp:6:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+is_distinct_from.cpp:334:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+is_distinct_from.cpp:6:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+is_distinct_from.cpp:334:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/background_thread.cpp:17:37: magic number [Implementation Smell] C++ method has magic number.
+src/prof_log.cpp:52:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/prof_log.cpp:62:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/prof_log.cpp:72:9: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 4
+src/prof_log.cpp:118:63: magic number [Implementation Smell] C++ method has magic number.
+src/prof_log.cpp:75:1: broken modularization [Design Smell] C++ class has Broken Modularization.
+src/prof_log.cpp:54:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_log.cpp:64:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_log.cpp:75:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_log.cpp:485:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/prof_log.cpp:52:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/prof_log.cpp:62:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/prof_log.cpp:72:9: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/prof_log.cpp:52:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_log.cpp:54:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_log.cpp:62:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_log.cpp:64:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_log.cpp:72:9: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_log.cpp:75:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_log.cpp:485:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/prof_log.cpp:54:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_log.cpp:64:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_log.cpp:75:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/prof_log.cpp:485:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+bitpacking.cpp:118:47: magic number [Implementation Smell] C++ method has magic number.
+bitpacking.cpp:116:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+bitpacking.cpp:129:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+bitpacking.cpp:144:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+bitpacking.cpp:159:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+bitpacking.cpp:173:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+bitpacking.cpp:199:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+bitpacking.cpp:116:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+re2/simplify.cc:111:1: complex class [Organic Class Smell] C++ class has complex method.
+re2/simplify.cc:111:1: long method [Implementation Smell] C++ class has long method with 70 lines.
+re2/simplify.cc:111:1: long method [Implementation Smell] C++ class has long method with 39 lines.
+re2/simplify.cc:111:1: long method [Implementation Smell] C++ class has long method with 98 lines.
+re2/simplify.cc:141:1: long method [Implementation Smell] C++ class has long method with 102 lines.
+re2/simplify.cc:141:1: long method [Implementation Smell] C++ class has long method with 60 lines.
+re2/simplify.cc:111:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/simplify.cc:141:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/simplify.cc:218:3: magic number [Implementation Smell] C++ method has magic number.
+re2/simplify.cc:141:1: missing default [Implementation Smell] C++ method missing default.
+re2/simplify.cc:111:1: long parameter list [Implementation Smell] PostVisit: method with 5 parameters
+re2/simplify.cc:141:1: long parameter list [Implementation Smell] PostVisit: method with 5 parameters
+re2/simplify.cc:141:1: long parameter list [Implementation Smell] SimplifyRepeat: method with 4 parameters
+re2/simplify.cc:111:1: complex conditional [Implementation Smell] C++ class has complex conditional.
+re2/simplify.cc:111:1: long statement [Implementation Smell] C++ class has long statement.
+re2/simplify.cc:141:1: long statement [Implementation Smell] C++ class has long statement.
+re2/simplify.cc:111:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+re2/simplify.cc:111:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/simplify.cc:141:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/simplify.cc:111:1: complex method [Implementation Smell] C++ class has complex method.
+re2/simplify.cc:111:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+re2/bitstate.cc:39:1: long method [Implementation Smell] C++ class has long method with 60 lines.
+re2/bitstate.cc:39:1: long method [Implementation Smell] C++ class has long method with 148 lines.
+re2/bitstate.cc:39:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+re2/bitstate.cc:66:34: magic number [Implementation Smell] C++ method has magic number.
+re2/bitstate.cc:39:1: long parameter list [Implementation Smell] Search: method with 6 parameters
+re2/bitstate.cc:33:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+re2/bitstate.cc:33:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+re2/bitstate.cc:39:1: long statement [Implementation Smell] C++ class has long statement.
+re2/bitstate.cc:39:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+re2/bitstate.cc:33:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+re2/bitstate.cc:39:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+
+[OCLint (https://oclint.org) v21.10]

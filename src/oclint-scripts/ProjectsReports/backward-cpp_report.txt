@@ -1,0 +1,133 @@
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+2.07246
+
+Compiler Warnings:
+
+test/suicide.cpp:78:26: all paths through this function will call itself
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=7 FilesWithSmells=6 TotalCodeSmells=51 
+
+test/select_signals.cpp:33:23: magic number [Implementation Smell] C++ method has magic number.
+test/select_signals.cpp:39:21: magic number [Implementation Smell] C++ method has magic number.
+test/select_signals.cpp:47:21: magic number [Implementation Smell] C++ method has magic number.
+test/select_signals.cpp:37:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/select_signals.cpp:45:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/stacktrace.cpp:33:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/stacktrace.cpp:50:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/_test_main.cpp:149:7: magic number [Implementation Smell] C++ method has magic number.
+test/suicide.cpp:43:23: magic number [Implementation Smell] C++ method has magic number.
+test/suicide.cpp:66:11: magic number [Implementation Smell] C++ method has magic number.
+test/suicide.cpp:78:76: magic number [Implementation Smell] C++ method has magic number.
+test/suicide.cpp:83:20: magic number [Implementation Smell] C++ method has magic number.
+test/suicide.cpp:40:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/suicide.cpp:48:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/suicide.cpp:58:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/suicide.cpp:70:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/suicide.cpp:80:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/rectrace.cpp:63:1: long statement [Implementation Smell] C++ class has long statement.
+test/rectrace.cpp:66:23: magic number [Implementation Smell] C++ method has magic number.
+test/rectrace.cpp:91:21: magic number [Implementation Smell] C++ method has magic number.
+test/rectrace.cpp:52:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/rectrace.cpp:63:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/rectrace.cpp:89:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/rectrace.cpp:63:1: large class [Organic Class Smell] C++ abstract class with 18 methods exceeds limit of 17
+test/rectrace.cpp:50:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 5
+test/rectrace.cpp:50:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+test/test.cpp:33:1: long statement [Implementation Smell] C++ class has long statement.
+test/test.cpp:49:1: long statement [Implementation Smell] C++ class has long statement.
+test/test.cpp:53:1: long statement [Implementation Smell] C++ class has long statement.
+test/test.cpp:59:1: long statement [Implementation Smell] C++ class has long statement.
+test/test.cpp:63:1: long statement [Implementation Smell] C++ class has long statement.
+test/test.cpp:31:45: magic number [Implementation Smell] C++ method has magic number.
+test/test.cpp:33:46: magic number [Implementation Smell] C++ method has magic number.
+test/test.cpp:39:57: magic number [Implementation Smell] C++ method has magic number.
+test/test.cpp:50:24: magic number [Implementation Smell] C++ method has magic number.
+test/test.cpp:53:36: magic number [Implementation Smell] C++ method has magic number.
+test/test.cpp:56:27: magic number [Implementation Smell] C++ method has magic number.
+test/test.cpp:60:28: magic number [Implementation Smell] C++ method has magic number.
+test/test.cpp:63:36: magic number [Implementation Smell] C++ method has magic number.
+test/test.cpp:29:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/test.cpp:31:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/test.cpp:33:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/test.cpp:35:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/test.cpp:39:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/test.cpp:41:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/test.cpp:47:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/test.cpp:49:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/test.cpp:53:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/test.cpp:55:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/test.cpp:59:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+test/test.cpp:63:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

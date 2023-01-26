@@ -1,0 +1,319 @@
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+1.49231
+
+Compiler Warnings:
+
+NotHubLikeModularizationTest2.cpp:6:20: unused variable 'classOut11'
+NotHubLikeModularizationTest2.cpp:7:20: unused variable 'classOut12'
+NotHubLikeModularizationTest2.cpp:8:20: unused variable 'classOut13'
+NotHubLikeModularizationTest2.cpp:9:20: unused variable 'classOut14'
+NotHubLikeModularizationTest2.cpp:10:20: unused variable 'classOut15'
+NotHubLikeModularizationTest2.cpp:11:20: unused variable 'classOut16'
+NotHubLikeModularizationTest2.cpp:12:20: unused variable 'classOut17'
+NotHubLikeModularizationTest2.cpp:13:20: unused variable 'classOut18'
+NotHubLikeModularizationTest2.cpp:14:20: unused variable 'classOut19'
+NotHubLikeModularizationTest2.cpp:15:20: unused variable 'classOut20'
+./NotHubLikeModularizationTest2.h:25:19: private field 'classOut1' is not used
+./NotHubLikeModularizationTest2.h:26:19: private field 'classOut2' is not used
+./NotHubLikeModularizationTest2.h:27:19: private field 'classOut3' is not used
+./NotHubLikeModularizationTest2.h:28:19: private field 'classOut4' is not used
+./NotHubLikeModularizationTest2.h:29:19: private field 'classOut5' is not used
+./NotHubLikeModularizationTest2.h:30:19: private field 'classOut6' is not used
+./NotHubLikeModularizationTest2.h:31:19: private field 'classOut7' is not used
+./NotHubLikeModularizationTest2.h:32:19: private field 'classOut8' is not used
+./NotHubLikeModularizationTest2.h:33:19: private field 'classOut9' is not used
+./NotHubLikeModularizationTest2.h:34:20: private field 'classOut10' is not used
+./NotHubLikeModularizationTest2.h:39:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:42:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:45:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:48:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:51:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:54:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:57:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:60:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:63:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:66:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:69:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:72:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:75:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:78:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:81:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:84:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:87:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:90:35: private field 'hubLikeModularizationTest2' is not used
+./NotHubLikeModularizationTest2.h:93:35: private field 'hubLikeModularizationTest2' is not used
+NotHubLikeModularizationTest1.cpp:6:20: unused variable 'classOut11'
+NotHubLikeModularizationTest1.cpp:7:20: unused variable 'classOut12'
+NotHubLikeModularizationTest1.cpp:8:20: unused variable 'classOut13'
+NotHubLikeModularizationTest1.cpp:9:20: unused variable 'classOut14'
+NotHubLikeModularizationTest1.cpp:10:20: unused variable 'classOut15'
+NotHubLikeModularizationTest1.cpp:11:20: unused variable 'classOut16'
+NotHubLikeModularizationTest1.cpp:12:20: unused variable 'classOut17'
+NotHubLikeModularizationTest1.cpp:13:20: unused variable 'classOut18'
+NotHubLikeModularizationTest1.cpp:14:20: unused variable 'classOut19'
+./NotHubLikeModularizationTest1.h:25:19: private field 'classOut1' is not used
+./NotHubLikeModularizationTest1.h:26:19: private field 'classOut2' is not used
+./NotHubLikeModularizationTest1.h:27:19: private field 'classOut3' is not used
+./NotHubLikeModularizationTest1.h:28:19: private field 'classOut4' is not used
+./NotHubLikeModularizationTest1.h:29:19: private field 'classOut5' is not used
+./NotHubLikeModularizationTest1.h:30:19: private field 'classOut6' is not used
+./NotHubLikeModularizationTest1.h:31:19: private field 'classOut7' is not used
+./NotHubLikeModularizationTest1.h:32:19: private field 'classOut8' is not used
+./NotHubLikeModularizationTest1.h:33:19: private field 'classOut9' is not used
+./NotHubLikeModularizationTest1.h:34:20: private field 'classOut10' is not used
+./NotHubLikeModularizationTest1.h:39:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:42:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:45:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:48:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:51:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:54:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:57:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:60:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:63:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:66:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:69:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:72:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:75:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:78:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:81:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:84:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:87:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:90:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:93:35: private field 'notHubLikeModularizationTest1' is not used
+./NotHubLikeModularizationTest1.h:96:35: private field 'notHubLikeModularizationTest1' is not used
+HubLikeModularizationTest.cpp:6:16: unused variable 'classOut11'
+HubLikeModularizationTest.cpp:7:16: unused variable 'classOut12'
+HubLikeModularizationTest.cpp:8:16: unused variable 'classOut13'
+HubLikeModularizationTest.cpp:9:16: unused variable 'classOut14'
+HubLikeModularizationTest.cpp:10:16: unused variable 'classOut15'
+HubLikeModularizationTest.cpp:11:16: unused variable 'classOut16'
+HubLikeModularizationTest.cpp:12:16: unused variable 'classOut17'
+HubLikeModularizationTest.cpp:13:16: unused variable 'classOut18'
+HubLikeModularizationTest.cpp:14:16: unused variable 'classOut19'
+HubLikeModularizationTest.cpp:15:16: unused variable 'classOut20'
+./HubLikeModularizationTest.h:25:15: private field 'classOut1' is not used
+./HubLikeModularizationTest.h:26:15: private field 'classOut2' is not used
+./HubLikeModularizationTest.h:27:15: private field 'classOut3' is not used
+./HubLikeModularizationTest.h:28:15: private field 'classOut4' is not used
+./HubLikeModularizationTest.h:29:15: private field 'classOut5' is not used
+./HubLikeModularizationTest.h:30:15: private field 'classOut6' is not used
+./HubLikeModularizationTest.h:31:15: private field 'classOut7' is not used
+./HubLikeModularizationTest.h:32:15: private field 'classOut8' is not used
+./HubLikeModularizationTest.h:33:15: private field 'classOut9' is not used
+./HubLikeModularizationTest.h:34:16: private field 'classOut10' is not used
+./HubLikeModularizationTest.h:39:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:42:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:45:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:48:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:51:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:54:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:57:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:60:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:63:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:66:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:69:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:72:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:75:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:78:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:81:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:84:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:87:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:90:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:93:31: private field 'hubLikeModularizationTest' is not used
+./HubLikeModularizationTest.h:96:31: private field 'hubLikeModularizationTest' is not used
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=3 FilesWithSmells=3 TotalCodeSmells=125 
+
+./NotHubLikeModularizationTest2.h:38:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:41:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:44:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:47:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:50:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:53:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:56:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:59:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:62:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:65:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:68:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:71:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:74:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:77:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:80:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:83:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:86:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:89:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:92:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest2.h:24:1: large class [Organic Class Smell] C++ abstract class with 25 methods exceeds limit of 10
+./NotHubLikeModularizationTest2.h:38:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:41:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:44:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:47:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:50:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:53:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:56:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:59:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:62:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:65:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:68:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:71:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:74:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:77:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:80:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:83:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:86:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:89:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest2.h:92:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:22:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:38:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:41:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:44:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:47:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:50:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:53:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:56:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:59:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:62:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:65:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:68:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:71:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:74:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:77:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:80:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:83:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:86:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:89:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:92:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:95:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotHubLikeModularizationTest1.h:24:1: large class [Organic Class Smell] C++ abstract class with 24 methods exceeds limit of 10
+./NotHubLikeModularizationTest1.h:22:1: lazy class [Organic Class Smell] C++ class with 2 lines below the threshold of 3
+./NotHubLikeModularizationTest1.h:22:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:38:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:41:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:44:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:47:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:50:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:53:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:56:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:59:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:62:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:65:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:68:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:71:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:74:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:77:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:80:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:83:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:86:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:89:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:92:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./NotHubLikeModularizationTest1.h:95:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:38:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:41:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:44:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:47:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:50:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:53:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:56:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:59:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:62:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:65:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:68:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:71:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:74:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:77:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:80:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:83:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:86:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:89:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:92:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:95:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./HubLikeModularizationTest.h:24:1: hub like modularization [Design Smell] C++ class has Hub Like Modularization.
+./HubLikeModularizationTest.h:24:1: large class [Organic Class Smell] C++ abstract class with 25 methods exceeds limit of 10
+./HubLikeModularizationTest.h:38:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:41:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:44:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:47:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:50:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:53:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:56:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:59:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:62:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:65:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:68:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:71:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:74:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:77:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:80:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:83:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:86:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:89:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:92:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+./HubLikeModularizationTest.h:95:1: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

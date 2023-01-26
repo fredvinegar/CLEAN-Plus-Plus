@@ -1,0 +1,414 @@
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+21.7368
+
+Compiler Warnings:
+
+./src/fm_learn_mcmc.h:739:8: variable 'num_all' set but not used
+./src/fm_learn_mcmc.h:854:8: variable 'num_all' set but not used
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=3 FilesWithSmells=2 TotalCodeSmells=179 
+
+tools/../src/../../fm_core/fm_model.h:36:1: long method [Implementation Smell] C++ class has long method with 31 lines.
+tools/../src/relation.h:32:1: long method [Implementation Smell] C++ class has long method with 43 lines.
+tools/../src/Data.h:49:1: long method [Implementation Smell] C++ class has long method with 178 lines.
+tools/../src/Data.h:49:1: long method [Implementation Smell] C++ class has long method with 50 lines.
+tools/../src/../../fm_core/fm_model.h:36:1: long identifier [Implementation Smell] C++ method has long identifier.
+tools/../src/Data.h:49:1: long identifier [Implementation Smell] C++ method has long identifier.
+tools/../src/../../fm_core/fm_model.h:36:1: complex class [Organic Class Smell] C++ class has complex method.
+tools/../src/Data.h:49:1: complex class [Organic Class Smell] C++ class has complex method.
+tools/../../util/cmdline.h:29:1: long statement [Implementation Smell] C++ class has long statement.
+tools/../src/../../fm_core/../util/matrix.h:101:1: long statement [Implementation Smell] C++ class has long statement.
+tools/../src/../../fm_core/fm_model.h:36:1: long statement [Implementation Smell] C++ class has long statement.
+tools/../src/Data.h:33:1: long statement [Implementation Smell] C++ class has long statement.
+tools/../src/relation.h:32:1: long statement [Implementation Smell] C++ class has long statement.
+tools/../src/relation.h:53:1: long statement [Implementation Smell] C++ class has long statement.
+tools/../src/Data.h:49:1: long statement [Implementation Smell] C++ class has long statement.
+tools/transpose.cpp:83:63: magic number [Implementation Smell] C++ method has magic number.
+tools/../../util/cmdline.h:29:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+tools/../src/../../fm_core/../util/matrix.h:35:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+tools/../src/../../fm_core/../util/matrix.h:96:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+tools/../src/../../fm_core/../util/matrix.h:101:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+tools/../src/../../fm_core/../util/fmatrix.h:44:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+tools/../src/../../fm_core/fm_model.h:36:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+tools/../src/relation.h:32:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+tools/../src/Data.h:49:1: complex conditional [Implementation Smell] C++ class has complex conditional.
+tools/../src/../../fm_core/fm_model.h:36:1: abstract function call from constructor [Implementation Smell] C++ class has constructor calls to abstract function.
+tools/../src/Data.h:33:1: abstract function call from constructor [Implementation Smell] C++ class has constructor calls to abstract function.
+tools/../src/../../fm_core/../util/matrix.h:35:1: lazy class [Organic Class Smell] C++ class with 7 lines below the threshold of 16
+tools/../src/../../fm_core/../util/matrix.h:96:1: lazy class [Organic Class Smell] C++ class with 9 lines below the threshold of 16
+tools/../src/../../fm_core/../util/fmatrix.h:44:1: lazy class [Organic Class Smell] C++ class with 8 lines below the threshold of 16
+tools/../../util/cmdline.h:29:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+tools/../src/../../fm_core/../util/matrix.h:35:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+tools/../src/../../fm_core/../util/fmatrix.h:44:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+tools/../src/../../fm_core/fm_model.h:36:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+tools/../src/Data.h:33:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+tools/../src/relation.h:32:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+tools/../src/relation.h:53:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+tools/../src/Data.h:49:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+tools/../src/Data.h:49:1: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+tools/../../util/cmdline.h:29:1: complex method [Implementation Smell] C++ class has complex method.
+tools/../src/../../fm_core/fm_model.h:36:1: complex method [Implementation Smell] C++ class has complex method.
+tools/../src/Data.h:49:1: complex method [Implementation Smell] C++ class has complex method.
+tools/../../util/cmdline.h:29:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+tools/../src/../../fm_core/../util/matrix.h:35:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+tools/../src/../../fm_core/../util/fmatrix.h:44:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+tools/../src/../../fm_core/fm_model.h:36:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+tools/../src/Data.h:33:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+tools/../src/relation.h:32:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+tools/../src/relation.h:53:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+tools/../src/Data.h:49:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+tools/../src/../../fm_core/fm_model.h:36:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+tools/../src/Data.h:49:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+tools/../../util/cmdline.h:29:1: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+./src/../../fm_core/fm_model.h:36:1: long method [Implementation Smell] C++ class has long method with 31 lines.
+./src/relation.h:32:1: long method [Implementation Smell] C++ class has long method with 43 lines.
+./src/Data.h:49:1: long method [Implementation Smell] C++ class has long method with 178 lines.
+./src/Data.h:49:1: long method [Implementation Smell] C++ class has long method with 50 lines.
+./src/fm_learn_sgd_element.h:33:1: long method [Implementation Smell] C++ class has long method with 31 lines.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: long method [Implementation Smell] C++ class has long method with 55 lines.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: long method [Implementation Smell] C++ class has long method with 34 lines.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: long method [Implementation Smell] C++ class has long method with 48 lines.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: long method [Implementation Smell] C++ class has long method with 80 lines.
+./src/fm_learn_mcmc.h:61:1: long method [Implementation Smell] C++ class has long method with 60 lines.
+./src/fm_learn_mcmc.h:61:1: long method [Implementation Smell] C++ class has long method with 42 lines.
+./src/fm_learn_mcmc.h:61:1: long method [Implementation Smell] C++ class has long method with 231 lines.
+./src/fm_learn_mcmc.h:61:1: long method [Implementation Smell] C++ class has long method with 212 lines.
+./src/fm_learn_mcmc.h:61:1: long method [Implementation Smell] C++ class has long method with 41 lines.
+./src/fm_learn_mcmc.h:61:1: long method [Implementation Smell] C++ class has long method with 48 lines.
+./src/fm_learn_mcmc.h:61:1: long method [Implementation Smell] C++ class has long method with 57 lines.
+./src/fm_learn_mcmc.h:61:1: long method [Implementation Smell] C++ class has long method with 56 lines.
+./src/fm_learn_mcmc.h:61:1: long method [Implementation Smell] C++ class has long method with 61 lines.
+./src/fm_learn_mcmc.h:61:1: long method [Implementation Smell] C++ class has long method with 38 lines.
+./src/fm_learn_mcmc.h:61:1: long method [Implementation Smell] C++ class has long method with 39 lines.
+./src/fm_learn_mcmc_simultaneous.h:46:1: long method [Implementation Smell] C++ class has long method with 215 lines.
+./src/../../fm_core/fm_model.h:36:1: long identifier [Implementation Smell] C++ method has long identifier.
+./src/Data.h:49:1: long identifier [Implementation Smell] C++ method has long identifier.
+./src/../../fm_core/fm_model.h:36:1: complex class [Organic Class Smell] C++ class has complex method.
+./src/Data.h:49:1: complex class [Organic Class Smell] C++ class has complex method.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: complex class [Organic Class Smell] C++ class has complex method.
+./src/fm_learn_mcmc.h:61:1: complex class [Organic Class Smell] C++ class has complex method.
+./src/fm_learn_mcmc_simultaneous.h:46:1: complex class [Organic Class Smell] C++ class has complex method.
+./../util/cmdline.h:29:1: long statement [Implementation Smell] C++ class has long statement.
+./src/../../util/matrix.h:101:1: long statement [Implementation Smell] C++ class has long statement.
+./src/../../fm_core/fm_model.h:36:1: long statement [Implementation Smell] C++ class has long statement.
+./src/Data.h:33:1: long statement [Implementation Smell] C++ class has long statement.
+./src/relation.h:32:1: long statement [Implementation Smell] C++ class has long statement.
+./src/relation.h:53:1: long statement [Implementation Smell] C++ class has long statement.
+./src/Data.h:49:1: long statement [Implementation Smell] C++ class has long statement.
+./src/../../util/rlog.h:29:1: long statement [Implementation Smell] C++ class has long statement.
+./src/fm_learn.h:31:1: long statement [Implementation Smell] C++ class has long statement.
+./src/fm_learn_sgd.h:33:1: long statement [Implementation Smell] C++ class has long statement.
+./src/fm_learn_sgd_element.h:33:1: long statement [Implementation Smell] C++ class has long statement.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: long statement [Implementation Smell] C++ class has long statement.
+./src/fm_learn_mcmc.h:61:1: long statement [Implementation Smell] C++ class has long statement.
+./src/fm_learn_mcmc_simultaneous.h:46:1: long statement [Implementation Smell] C++ class has long statement.
+./src/fm_learn_mcmc.h:61:1: long parameter list [Implementation Smell] draw_w: method with 4 parameters
+./src/fm_learn_mcmc.h:61:1: long parameter list [Implementation Smell] draw_w_rel: method with 5 parameters
+./src/fm_learn_mcmc.h:61:1: long parameter list [Implementation Smell] draw_v: method with 4 parameters
+./src/fm_learn_mcmc.h:61:1: long parameter list [Implementation Smell] draw_v_rel: method with 5 parameters
+./src/fm_learn_mcmc_simultaneous.h:46:1: long parameter list [Implementation Smell] _evaluate: method with 7 parameters
+./src/fm_learn_mcmc_simultaneous.h:46:1: long parameter list [Implementation Smell] _evaluate_class: method with 7 parameters
+./src/fm_learn_mcmc_simultaneous.h:46:1: long parameter list [Implementation Smell] _evaluate: method with 6 parameters
+./src/fm_learn_mcmc_simultaneous.h:46:1: long parameter list [Implementation Smell] _evaluate_class: method with 6 parameters
+libfm.cpp:248:58: magic number [Implementation Smell] C++ method has magic number.
+./../util/cmdline.h:29:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./src/../../util/matrix.h:35:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./src/../../util/matrix.h:96:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./src/../../util/matrix.h:101:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./src/../../util/fmatrix.h:44:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./src/../../fm_core/fm_model.h:36:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./src/relation.h:32:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./src/../../util/rlog.h:29:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./src/fm_learn_mcmc_simultaneous.h:46:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./src/Data.h:49:1: complex conditional [Implementation Smell] C++ class has complex conditional.
+./src/fm_learn_mcmc.h:61:1: refused bequest [Organic Class Smell] C++  class with override more than half of it's super class
+./src/fm_learn_mcmc.h:61:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+./src/fm_learn_mcmc.h:61:1: large class [Organic Class Smell] C++ abstract class with 1095 methods exceeds limit of 556
+./src/../../fm_core/fm_model.h:36:1: abstract function call from constructor [Implementation Smell] C++ class has constructor calls to abstract function.
+./src/Data.h:33:1: abstract function call from constructor [Implementation Smell] C++ class has constructor calls to abstract function.
+./src/fm_learn_sgd.h:33:1: abstract function call from constructor [Implementation Smell] C++ class has constructor calls to abstract function.
+./src/fm_learn_sgd_element.h:33:1: abstract function call from constructor [Implementation Smell] C++ class has constructor calls to abstract function.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: abstract function call from constructor [Implementation Smell] C++ class has constructor calls to abstract function.
+./src/fm_learn_mcmc.h:61:1: abstract function call from constructor [Implementation Smell] C++ class has constructor calls to abstract function.
+./src/fm_learn_mcmc_simultaneous.h:46:1: abstract function call from constructor [Implementation Smell] C++ class has constructor calls to abstract function.
+./src/../../util/matrix.h:35:1: lazy class [Organic Class Smell] C++ class with 7 lines below the threshold of 16
+./src/../../util/matrix.h:96:1: lazy class [Organic Class Smell] C++ class with 9 lines below the threshold of 16
+./src/../../util/fmatrix.h:44:1: lazy class [Organic Class Smell] C++ class with 8 lines below the threshold of 16
+./src/fm_learn_mcmc.h:46:1: lazy class [Organic Class Smell] C++ class with 5 lines below the threshold of 16
+./src/fm_learn_mcmc.h:51:1: lazy class [Organic Class Smell] C++ class with 10 lines below the threshold of 16
+./../util/cmdline.h:29:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/../../util/matrix.h:35:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/../../util/fmatrix.h:44:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/../../fm_core/fm_model.h:36:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/Data.h:33:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/relation.h:32:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/relation.h:53:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/Data.h:49:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/fm_learn.h:31:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/fm_learn_sgd.h:33:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/fm_learn_mcmc.h:46:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/fm_learn_mcmc.h:51:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/fm_learn_mcmc.h:61:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+./src/Data.h:49:1: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+./src/fm_learn.h:31:1: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+./src/fm_learn_sgd_element.h:33:1: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+./src/fm_learn_mcmc.h:61:1: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+./src/fm_learn_mcmc_simultaneous.h:46:1: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: shotgun surgery [Organic Method Smell] C++ class has shotgun surgery.
+./src/fm_learn_mcmc.h:61:1: shotgun surgery [Organic Method Smell] C++ class has shotgun surgery.
+./../util/cmdline.h:29:1: complex method [Implementation Smell] C++ class has complex method.
+./src/../../fm_core/fm_model.h:36:1: complex method [Implementation Smell] C++ class has complex method.
+./src/Data.h:49:1: complex method [Implementation Smell] C++ class has complex method.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: complex method [Implementation Smell] C++ class has complex method.
+./src/fm_learn_mcmc.h:61:1: complex method [Implementation Smell] C++ class has complex method.
+./src/fm_learn_mcmc_simultaneous.h:46:1: complex method [Implementation Smell] C++ class has complex method.
+./../util/cmdline.h:29:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/../../util/matrix.h:35:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/../../util/fmatrix.h:44:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/../../fm_core/fm_model.h:36:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/Data.h:33:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/relation.h:32:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/relation.h:53:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/Data.h:49:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/fm_learn.h:31:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/fm_learn_sgd.h:33:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/fm_learn_mcmc.h:46:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/fm_learn_mcmc.h:51:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/fm_learn_mcmc.h:61:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+./src/../../fm_core/fm_model.h:36:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+./src/Data.h:49:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+./src/fm_learn_mcmc.h:61:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+./src/fm_learn_sgd_element.h:33:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+./src/fm_learn_sgd_element_adapt_reg.h:43:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+./../util/cmdline.h:29:1: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+./src/fm_learn_mcmc.h:61:1: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+tools/convert.cpp:106:47: magic number [Implementation Smell] C++ method has magic number.
+
+[OCLint (https://oclint.org) v21.10]

@@ -1,0 +1,163 @@
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+5.05263
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=8 FilesWithSmells=5 TotalCodeSmells=50 
+
+example.cpp:38:77: magic number [Implementation Smell] C++ method has magic number.
+example.cpp:288:51: magic number [Implementation Smell] C++ method has magic number.
+example.cpp:323:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+example.cpp:258:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+example.cpp:258:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+example.cpp:323:1: unexploited encapsulation [Design Smell] C++ class has Unexploited Encapsulation.
+src/color_sinks.cpp:25:1: long statement [Implementation Smell] C++ class has long statement.
+src/color_sinks.cpp:26:1: long statement [Implementation Smell] C++ class has long statement.
+src/color_sinks.cpp:25:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/color_sinks.cpp:26:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/color_sinks.cpp:27:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/color_sinks.cpp:28:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/color_sinks.cpp:29:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/color_sinks.cpp:30:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/color_sinks.cpp:25:1: large class [Organic Class Smell] C++ abstract class with 114 methods exceeds limit of 100
+src/color_sinks.cpp:26:1: large class [Organic Class Smell] C++ abstract class with 114 methods exceeds limit of 100
+src/color_sinks.cpp:25:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/color_sinks.cpp:26:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/color_sinks.cpp:25:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/color_sinks.cpp:26:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/color_sinks.cpp:25:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/color_sinks.cpp:26:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/spdlog.cpp:25:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/spdlog.cpp:26:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/spdlog.cpp:25:1: speculative generality [Organic Class Smell] C++ abstract class with 1 children under the limit of 3
+src/spdlog.cpp:26:1: speculative generality [Organic Class Smell] C++ abstract class with 1 children under the limit of 3
+src/stdout_sinks.cpp:14:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/stdout_sinks.cpp:15:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/stdout_sinks.cpp:16:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/stdout_sinks.cpp:17:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/stdout_sinks.cpp:18:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/stdout_sinks.cpp:19:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/stdout_sinks.cpp:14:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/stdout_sinks.cpp:15:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/file_sinks.cpp:19:1: long identifier [Implementation Smell] C++ method has long identifier.
+src/file_sinks.cpp:20:1: long identifier [Implementation Smell] C++ method has long identifier.
+src/file_sinks.cpp:19:1: long statement [Implementation Smell] C++ class has long statement.
+src/file_sinks.cpp:20:1: long statement [Implementation Smell] C++ class has long statement.
+src/file_sinks.cpp:19:1: long parameter list [Implementation Smell] rotating_file_sink: method with 5 parameters
+src/file_sinks.cpp:20:1: long parameter list [Implementation Smell] rotating_file_sink: method with 5 parameters
+src/file_sinks.cpp:15:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/file_sinks.cpp:16:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/file_sinks.cpp:19:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/file_sinks.cpp:20:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/file_sinks.cpp:19:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+src/file_sinks.cpp:20:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+src/file_sinks.cpp:19:1: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+src/file_sinks.cpp:20:1: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+src/file_sinks.cpp:19:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/file_sinks.cpp:20:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+
+[OCLint (https://oclint.org) v21.10]
