@@ -67,6 +67,7 @@ To extract all 35 smells, run the RunAll script in oclint-scripts.
 
 ### Report
 In the end, both execution types will output a report with the detected code smells for each file.
+For example, [example_report.txt](data/example_report.txt) shows a full report for the execution of CLEAN++ on the project [gperftools](https://github.com/gperftools/gperftools).
 
 
   
