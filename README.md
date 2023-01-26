@@ -4,7 +4,7 @@ CLEAN++ is an extension of OCLint, a static code analysis tool, to be able to de
 
 ## List of Code Smells
 
-I implemented 35 code smells derived from the smells in DesigniteJava and Organic tools.
+CLEAN++ implements 35 code smells derived from the smells in DesigniteJava and Organic tools.
 
 
 
