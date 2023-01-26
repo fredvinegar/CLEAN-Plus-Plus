@@ -94,7 +94,15 @@ We include the written tests in the [test directory](tests/), for both [C++](tes
 
 
 #### Replicate experiments
+```bash
+# Creates compilation database for each test case.
+docker exec -ti cleanpp /bin/bash -c 'python3 /oclint-repo/oclint-scripts/BearAllTestScript.py | bash'
+# Creates the OClint report for each test case (It may take a few minutes to complete).
+docker exec -ti cleanpp /bin/bash -c 'python3 /oclint-repo/oclint-scripts/RunAllTestScript.py | bash'
+# Parses the OClint reports into a CSV file.
+docker exec -ti cleanpp /bin/bash -c 'python3 /oclint-repo/oclint-scripts/ParseAllTestScript.py | bash'
 
+```
 
 #### Results
 In [test_case_results.tsv](data/test_case_results.tsv), we list the results for each test case from the execution of CLEAN++ for C++ and both tools [DesigniteJava](https://www.designite-tools.com/) and [Organic](https://github.com/opus-research/organic).
