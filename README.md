@@ -69,8 +69,6 @@ We include the written tests in the [test directory](tests/), for both [C++](tes
 
 
 #### Replicate experiments
-##### Create docker container for test execution
-
 
 
 #### Results
