@@ -93,7 +93,7 @@ docker run -d --name=cleancpp cleanpp
 
 ### Running CLEAN++ on Test Cases
 #### List of Test Cases
-We evaluated CLEAN++ smells' implementations by writing 35 test cases, each targeting a specific test.
+We evaluated CLEAN++ smells' implementations by writing 35 test cases, each targeting a specific smell.
 We include the written tests in the [test directory](tests/), for both [C++](tests/cpp) and [Java](tests/java).
 
 
@@ -106,7 +106,7 @@ docker exec -ti cleanpp /bin/bash -c 'python3 /oclint-repo/oclint-scripts/RunAll
 # Parses the OClint reports into a CSV file.
 docker exec -ti cleanpp /bin/bash -c 'python3 /oclint-repo/oclint-scripts/ParseAllTestScript.py | bash'
 # Get the results from the docker container
-docker cp cleanpp:/oclint-repo/oclint-scripts/results_test.csv ./cpp_test_cases_results.csv
+docker cp cleanpp:/oclint-repo/oclint-scripts/cpp_test_cases_results.csv .
 ```
 
 #### Results
@@ -132,6 +132,41 @@ You can find more information about them in [projects.tsv](data/projects.tsv)
 | cxxopts   | UDPspeeder         | muduo       | handy         | backward-cpp        | openal-soft      |           |
 
 #### Replicate experiments
+Given a project you want to replicate, you need to do the following.
+
+```bash
+# Clone the project to the docker
+docker exec -ti cleanpp /bin/bash -c "git clone <project-git-url> /<project-dir>"
+# (If project requires) Run CMake on the project
+docker exec -ti cleanpp /bin/bash -c "cd <project-dir>; cmake ."
+# Create compilation database for the project
+docker exec -ti cleanpp /bin/bash -c "cd <project-dir>; bear make"
+# Run CLEAN++ on the project directory (May take from a few minutes to hours depending on the project)
+docker exec -ti cleanpp /bin/bash -c "/oclint-repo/oclint-scripts/RunRules.sh <project-dir> > /tmp/<project-dir>_report.txt"
+# Parse the generated report
+docker exec -ti cleanpp /bin/bash -c "python3 /oclint-repo/oclint-scripts/ParseProject.py <project_dir>"
+# Get results from docker
+docker cp cleanpp:/tmp/<project-dir>_results.csv .
+
+```
+
+##### Example - Project 2048
+
+```bash
+# Clone 2048 to the docker
+docker exec -ti cleanpp /bin/bash -c "git clone https://github.com/plibither8/2048.cpp.git /2048"
+# Run CMake on 2048
+docker exec -ti cleanpp /bin/bash -c "cd 2048; cmake ."
+# Create compilation database for 2048
+docker exec -ti cleanpp /bin/bash -c "cd 2048; bear make"
+# Run CLEAN++ on 2048
+docker exec -ti cleanpp /bin/bash -c "/oclint-repo/oclint-scripts/RunRules.sh /2048 > /tmp/2048_report.txt"
+# Parse the generated report
+docker exec -ti cleanpp /bin/bash -c "python3 /oclint-repo/oclint-scripts/ParseProject.py 2048"
+# Get results from docker
+docker cp cleanpp:/tmp/2048_results.csv .
+
+```
 
 #### Results
 We executed CLEAN++ on all of the 44 projects.
