@@ -38,7 +38,6 @@ You can find the full details about each smell in [smells.md](data/smells.md)
 We evaluated CLEAN++ smells' implementations by writing 35 test cases, each targeting a specific test.
 We include the written tests in the [test directory](tests/), for both [C++](tests/cpp) and [Java](tests/java).
 
-In [test_case_results.tsv](data/test_case_results.tsv), we list the results for each test case from the execution of CLEAN++ for C++ and both tools [DesigniteJava](https://www.designite-tools.com/) and [Organic](https://github.com/opus-research/organic).
 
 #### Replicate experiments
 ##### Create docker container for test execution
@@ -49,6 +48,8 @@ docker run -d -name=test-cases test-cases
 
 
 #### Results
+In [test_case_results.tsv](data/test_case_results.tsv), we list the results for each test case from the execution of CLEAN++ for C++ and both tools [DesigniteJava](https://www.designite-tools.com/) and [Organic](https://github.com/opus-research/organic).
+
 In the following figure we show the comparison between the number of smells from the execution of CLEAN++ with the other two Java tools on the test cases for Java.
 
 ![test case results alt](fig/test_case_results.png)
