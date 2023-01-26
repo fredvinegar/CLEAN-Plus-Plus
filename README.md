@@ -80,8 +80,8 @@ To replicate the experiments, you need to create a container with CLEAN++ instal
 Therefore execute the following commands from the root of the repository.
 
 ```bash 
-docker build -t=cleanpp --progress=plain .
-docker run -d --name=cleanpp cleanpp
+docker build -t=cleancpp --progress=plain .
+docker run -d --name=cleancpp cleancpp
 ```
 
 ### Running CLEAN++ on Test Cases
