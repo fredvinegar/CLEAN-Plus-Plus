@@ -41,6 +41,12 @@ We include the written tests in the [test directory](tests/), for both [C++](tes
 In [test_case_results.tsv](data/test_case_results.tsv), we list the results for each test case from the execution of CLEAN++ for C++ and both tools [DesigniteJava](https://www.designite-tools.com/) and [Organic](https://github.com/opus-research/organic).
 
 #### Replicate experiments
+##### Create docker container for test execution
+```console 
+docker build -t=test-cases --progress=plain -f replicate/TestsDockerfile . ;
+docker run -t=test-cases --progress=plain -f replicate/TestsDockerfile . ;
+```
+
 
 #### Results
 In the following figure we show the comparison between the number of smells from the execution of CLEAN++ with the other two Java tools on the test cases for Java.
