@@ -1,0 +1,10 @@
+#ifndef ROBOTICS_NOTUNNECESSARYABSTRACTIONTEST2_H
+#define ROBOTICS_NOTUNNECESSARYABSTRACTIONTEST2_H
+class NotUnnecessaryAbstractionTest2{
+    int f1;
+    int f2;
+    int f3;
+    void fun1(){}
+
+};
+#endif //ROBOTICS_NOTUNNECESSARYABSTRACTIONTEST2_H

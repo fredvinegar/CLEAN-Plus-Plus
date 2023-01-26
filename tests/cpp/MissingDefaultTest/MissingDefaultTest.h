@@ -1,0 +1,6 @@
+#ifndef ROBOTICS_MISSINGDEFAULTTEST_H
+#define ROBOTICS_MISSINGDEFAULTTEST_H
+class MissingDefaultTest{
+    void fun(int p);
+};
+#endif //ROBOTICS_MISSINGDEFAULTTEST_H

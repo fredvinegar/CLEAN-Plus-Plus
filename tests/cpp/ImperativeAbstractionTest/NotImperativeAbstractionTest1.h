@@ -1,0 +1,8 @@
+#ifndef ROBOTICS_NOTIMPERATIVEABSTRACTIONTEST1_H
+#define ROBOTICS_NOTIMPERATIVEABSTRACTIONTEST1_H
+class NotImperativeAbstractionTest1{
+private:
+    int func1();
+    void func2(){}
+};
+#endif //ROBOTICS_NOTIMPERATIVEABSTRACTIONTEST1_H

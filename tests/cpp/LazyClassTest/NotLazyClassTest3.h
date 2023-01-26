@@ -1,0 +1,6 @@
+#ifndef ROBOTICS_NOTLAZYCLASSTEST3_H
+#define ROBOTICS_NOTLAZYCLASSTEST3_H
+class NotLazyClassTest3{
+    void func1();
+};
+#endif //ROBOTICS_NOTLAZYCLASSTEST3_H

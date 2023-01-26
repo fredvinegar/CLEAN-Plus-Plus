@@ -1,0 +1,7 @@
+#ifndef ROBOTICS_NOTSHOTGUNSURGERYTEST1_H
+#define ROBOTICS_NOTSHOTGUNSURGERYTEST1_H
+class NotShotgunSurgeryTest1{
+    void Not1fun1 (int p1, int p2, int p3);
+
+};
+#endif //ROBOTICS_NOTSHOTGUNSURGERYTEST1_H

@@ -1,0 +1,6 @@
+#ifndef ROBOTICS_NOTSWISSARMYKNIFETEST2_H
+#define ROBOTICS_NOTSWISSARMYKNIFETEST2_H
+class NotSwissArmyKnifeTest2{
+    virtual void func1() = 0;
+};
+#endif //ROBOTICS_NOTSWISSARMYKNIFETEST2_H

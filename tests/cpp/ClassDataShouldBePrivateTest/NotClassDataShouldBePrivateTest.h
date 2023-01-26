@@ -1,0 +1,10 @@
+#ifndef ROBOTICS_NOTCLASSDATASHOULDBEPRIVATETEST_H
+#define ROBOTICS_NOTCLASSDATASHOULDBEPRIVATETEST_H
+class NotClassDataShouldBePrivateTest{
+public:
+    void fun();
+private:
+    int isPrivate;
+
+};
+#endif //ROBOTICS_NOTCLASSDATASHOULDBEPRIVATETEST_H

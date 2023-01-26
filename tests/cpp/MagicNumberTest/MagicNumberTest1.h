@@ -1,0 +1,6 @@
+#ifndef ROBOTICS_MAGICNUMBERTEST1_H
+#define ROBOTICS_MAGICNUMBERTEST1_H
+class MagicNumberTest1{
+    void func();
+};
+#endif //ROBOTICS_MAGICNUMBERTEST1_H

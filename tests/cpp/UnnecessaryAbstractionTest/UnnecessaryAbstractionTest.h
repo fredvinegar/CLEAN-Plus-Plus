@@ -1,0 +1,8 @@
+#ifndef ROBOTICS_UNNECESSARYABSTRACTIONTEST_H
+#define ROBOTICS_UNNECESSARYABSTRACTIONTEST_H
+class UnnecessaryAbstractionTest{
+    int f1;
+    int f2;
+    int f3;
+};
+#endif //ROBOTICS_UNNECESSARYABSTRACTIONTEST_H

@@ -1,0 +1,7 @@
+#ifndef ROBOTICS_NOTEMPTYCATCHCLAUSETEST_H
+#define ROBOTICS_NOTEMPTYCATCHCLAUSETEST_H
+class NotEmptyCatchClauseTest{
+    int f;
+    void func1(int p);
+};
+#endif //ROBOTICS_NOTEMPTYCATCHCLAUSETEST_H
