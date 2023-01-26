@@ -74,7 +74,7 @@ In the end, both execution types will output a report with the detected code sme
 
 ### Setting up docker container
 To replicate the experiments, you need to create a container with CLEAN++ installed.
-Therefore execute the following commands.
+Therefore execute the following commands from the root of the repository.
 
 ```bash 
 docker build -t=cleanpp --progress=plain .
