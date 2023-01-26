@@ -17,6 +17,7 @@ You can find the full details about each smell in [smells.md](data/smells.md)
 | UnexploitedEncapsulation | Empty catch clause                      | Lazy Class          | Class Data Should Be Private | Message Chain          |
 | BrokenModularization     | Long Identifier                         | Swiss Army Knife    | God Class                    | Shotgun Surgery        |
 
+## Dependencies
 
 ## Install
 * Clone CLEAN++: git clone https://github.com/Tomma94/CLEAN-Plus-Plus.git
@@ -26,23 +27,28 @@ You can find the full details about each smell in [smells.md](data/smells.md)
 * cd build/oclint-release/bin
 * Inside there is the oclint-json-compilation-database which is ...
 * For run a rule on a project run: ./oclint-json-compilation-database -p <path to your project compile-command.json file> -- -rule= <rule name>
-* For running the rules in the list you first need to run this rules in this order: AggregareInfo, MethodsInfo, NumOfFanIn, NumOfFanInFunctions.
-* You can go into oclint-scripts and run: ./RunAll <path to your project compile-command.json file> for running all the smells that available.
-  
 
-## Reproduce Test Cases
-### List of Test Cases
+## Execution
+* For running the rules in the list you first need to run this rules in this order: AggregareInfo, MethodsInfo, NumOfFanIn, NumOfFanInFunctions.
+* You can go into oclint-scripts and run: ./RunAll <path to your project compile-command.json file> for running all the smells that available. 
+
+## Experiments
+### Running CLEAN++ Test Cases
+#### List of Test Cases
 We evaluated CLEAN++ smells' implementations by writing 35 test cases, each targeting a specific test.
 We include the written tests in the [test directory](tests/), for both [C++](tests/cpp) and [Java](tests/java).
 
 In [test_case_results.tsv](data/test_case_results.tsv), we list the results for each test case from the execution of CLEAN++ for C++ and both tools [DesigniteJava](https://www.designite-tools.com/) and [Organic](https://github.com/opus-research/organic).
 
+#### Replicate experiments
+
+#### Results
 In the following figure we show the comparison between the number of smells from the execution of CLEAN++ with the other two Java tools on the test cases for Java.
 
 ![test case results alt](fig/test_case_results.png)
 
-## Reproduce Execution in Projects
-### List of Projects
+### Running CLEAN++ on Projects
+#### List of Projects
 We evaluated CLEAN++ on the 44 projects we list below.
 You can find more information about them in [projects.tsv](data/projects.tsv)
 
@@ -56,6 +62,9 @@ You can find more information about them in [projects.tsv](data/projects.tsv)
 | libfm     | matrix             | spdlog      | LeetCode      | SEAL                | marl             |           |
 | cxxopts   | UDPspeeder         | muduo       | handy         | backward-cpp        | openal-soft      |           |
 
+#### Replicate experiments
+
+#### Results
 We executed CLEAN++ on all of the 44 projects.
 You can observe the results in [project_results.tsv](data/project_results.tsv).
 
