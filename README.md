@@ -70,7 +70,7 @@ To extract all 35 smells, run the RunAll script in oclint-scripts.
   2. MethodsInfo
   3. NumOfFanIn
   4. NumOfFanInFunctions.
-* These rules will create four files in the /tmp/ directory (Data, Methods, NumOfFanIn, NumOfFanInFunctions). If you need to run CLEAN++ on a new project, you need to delete those files first.
+* These rules will create four files in the /tmp/ directory (Data, Methods, NumOfFanIn, NumOfFanInFunctions). If you need to run CLEAN++ on a new project, you need to delete those files first (if /tmp/ did not automatically delete them first).
 
 ### Report
 In the end, both execution types will output a report with the detected code smells for each file.
