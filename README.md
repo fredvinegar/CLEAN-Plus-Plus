@@ -46,7 +46,7 @@ You can find the full details about each smell in [smells.md](data/smells.md)
 ### Install
 ```bash
 cd src/oclint-script;
-./make
+./remake-release
 ```
 
 ### Execution
