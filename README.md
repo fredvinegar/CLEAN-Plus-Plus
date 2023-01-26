@@ -6,6 +6,7 @@ CLEAN++ is an extension of OCLint, a static code analysis tool, to be able to de
 
 CLEAN++ implements 35 code smells derived from the smells in DesigniteJava and Organic tools.
 
+|--------------------------|-----------------------------------------|---------------------|------------------------------|------------------------|
 | ImperativeAbstraction    | InsufficientModularization              | Long Method         | Data Class                   | Speculative Generality |
 | MultifacetedAbstraction  | HubLikeModularization                   | Long Parameter List | Complex Class                | Brain Class            |
 | UnnecessaryAbstraction   | Abstract Function Call From Constructor | Long Statement      | Refused Bequest              | Brain Method           |
