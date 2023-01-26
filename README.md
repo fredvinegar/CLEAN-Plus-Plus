@@ -106,7 +106,7 @@ docker exec -ti cleanpp /bin/bash -c 'python3 /oclint-repo/oclint-scripts/RunAll
 # Parses the OClint reports into a CSV file.
 docker exec -ti cleanpp /bin/bash -c 'python3 /oclint-repo/oclint-scripts/ParseAllTestScript.py | bash'
 # Get the results from the docker container
-docker cp cleanpp:/oclint-repo/oclint-scripts/results_test.csv ./cpp_test_cases_results.csv
+docker cp cleanpp:/oclint-repo/oclint-scripts/cpp_test_cases_results.csv .
 ```
 
 #### Results
