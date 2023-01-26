@@ -51,4 +51,4 @@ You can observe the results in [project_results.tsv](data/project_results.tsv).
 
 In the following figure, you can observe the number of smells detected by CLEAN++ for each project.
 
-![project results alt](fig/project_results.png)
+![project results alt](fig/projects_results.png)
