@@ -65,8 +65,12 @@ To extract all 35 smells, run the RunAll script in oclint-scripts.
   ./RunAll <path-to-project>
 ```
 #### Notes
-* Before running the smells on new project, it is necessary to run these rules on your project in this order: AggregateInfo, MethodsInfo, NumOfFanIn, NumOfFanInFunctions.
-* These rules created four files in the /tmp/ directory (Data, Methods, NumOfFanIn, NumOfFanInFunctions). If you want to run on a new project, please delete those files first.
+* Before running the smells on a new project, most rules require pre-execution rules that need to be executed before. Therefore, you need to run the following rules in the respective order
+  1. AggregateInfo
+  2. MethodsInfo
+  3. NumOfFanIn
+  4. NumOfFanInFunctions.
+* These rules will create four files in the /tmp/ directory (Data, Methods, NumOfFanIn, NumOfFanInFunctions). If you need to run CLEAN++ on a new project, you need to delete those files first.
 
 ### Report
 In the end, both execution types will output a report with the detected code smells for each file.
