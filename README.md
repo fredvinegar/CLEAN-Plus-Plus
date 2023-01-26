@@ -93,7 +93,7 @@ docker run -d --name=cleancpp cleanpp
 
 ### Running CLEAN++ on Test Cases
 #### List of Test Cases
-We evaluated CLEAN++ smells' implementations by writing 35 test cases, each targeting a specific test.
+We evaluated CLEAN++ smells' implementations by writing 35 test cases, each targeting a specific smell.
 We include the written tests in the [test directory](tests/), for both [C++](tests/cpp) and [Java](tests/java).
 
 
