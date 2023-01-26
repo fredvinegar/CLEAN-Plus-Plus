@@ -12,5 +12,5 @@ projects_list = ['AbstractFunctionCallFromConstructorTest', 'ComplexMethodTest',
                  'MissingDefaultTest', 'UnexploitedEncapsulationTest']
 
 for project in projects_list:
-    print(f'cd /tests-cpp/{project}; bear make')
+    print(f'cd /tests-cpp/{project}; rm -f compile-command.json; make clean; bear make')
 

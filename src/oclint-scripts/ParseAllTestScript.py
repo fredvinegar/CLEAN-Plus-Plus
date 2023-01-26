@@ -38,13 +38,13 @@ fields_names = ["Project", "Files Number",
                     "Empty Catch Clause", "Long Identifier", "Long Statement", "Magic Number", "Missing Default"]
 
 
-with open("results_test.csv", "w") as csvfile:
+with open("/oclint-repo/oclint-scripts/results_test.csv", "w") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fields_names)
         writer.writeheader()
 
 
 for project in projects_list:
-    f = open(f"TestsReports/{project}_report.txt", "r")
+    f = open(f"/oclint-repo/oclint-scripts/TestsReports/{project}_report.txt", "r")
     data_dict = {'Project': None,
                  'Files Number': 0,
                  'Files With Smells': 0, 'Total Code Smells': 0, 'Total Types of Code Smells': 0,
@@ -102,7 +102,7 @@ for project in projects_list:
             total_type_smells += 1
     data_dict['Total Types of Code Smells'] = total_type_smells
 
-    with open("results_test.csv", "a") as csvfile:
+    with open("/oclint-repo/oclint-scripts/results_test.csv", "a") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=data_dict.keys())
 
         writer.writerow(data_dict)

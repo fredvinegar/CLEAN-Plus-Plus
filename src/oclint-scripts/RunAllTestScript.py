@@ -16,5 +16,6 @@ reports_path = Path("/oclint-repo/oclint-scripts/TestsReports")
 reports_path.mkdir(exist_ok=True, parents=True)
 
 for project in projects_list:
+
     print(f'/oclint-repo/oclint-scripts/RunRules.sh /tests-cpp/{project}/ > /oclint-repo/oclint-scripts/TestsReports/{project}_report.txt')
 
