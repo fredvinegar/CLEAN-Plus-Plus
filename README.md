@@ -23,7 +23,12 @@ You can find the full details about each smell in [smells.md](data/smells.md)
 ## Reproduce Test Cases
 ### List of Test Cases
 We evaluated CLEAN++ smells' implementations by writing 35 test cases, each targeting a specific test.
-In [test_case_results.tsv](data/test_case_results.tsv), we list the results for each test case from the execution of CLEAN++ for C++ and both tools [DesigniteJava](https://www.designite-tools.com/) and [Organic](https://github.com/opus-research/organic)
+
+In [test_case_results.tsv](data/test_case_results.tsv), we list the results for each test case from the execution of CLEAN++ for C++ and both tools [DesigniteJava](https://www.designite-tools.com/) and [Organic](https://github.com/opus-research/organic).
+
+In the following figure we compare the number of smells between the execution of CLEAN++ and the other two Java tools on the test cases.
+
+![test case results alt](fig/test_case_results.png)
 
 ## Reproduce Execution in Projects
 ### List of Projects
