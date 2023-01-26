@@ -16,7 +16,7 @@ CLEAN++ is an extension of [OCLint](https://github.com/oclint/oclint), a static 
     - [Replicate experiments](#replicate-experiments)
     - [Results](#results)
   - [Running CLEAN++ on Projects](#running-clean-on-projects)
-    - [List of Test Cases](#list-of-test-cases-1)
+    - [List of Projects](#list-of-projects)
     - [Replicate experiments](#replicate-experiments-1)
     - [Results](#results-1)
 
