@@ -1,3 +1,0 @@
-projects_list = ['WebServer', 'libco', 'xlearn', 'mergerfs', 'OpenCC', 'libfm', 'cxxopts', 'hnswlib', 'rpi-rgb-led-matrix', 'coost', 'rpclib', 'magic', 'matrix', 'UDPspeeder', 'FTXUI', 'enkiTS', 'json', 'flatbuffers', 'C-Plus-Plus', 'spdlog', 'muduo', 'duckdb', 're2', 'git-crypt', 'yoga', 'sentencepiece', 'LeetCode', 'handy', 'design-patterns-cpp', 'zopfli', 'pugixml', 'Dobby', 'PacVim', 'SEAL', 'backward-cpp', 'gperftools', 'ChaiScript']
-for project in projects_list:
-    print(f'./RunRules.sh ../../projects/{project}/ > ProjectsReports/{project}_report.txt')
