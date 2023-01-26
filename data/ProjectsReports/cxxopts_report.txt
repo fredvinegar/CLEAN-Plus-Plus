@@ -1,0 +1,15 @@
+5.5
+5.5
+5.5
+5.5
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=5 FilesWithSmells=1 TotalCodeSmells=3 
+
+options.cpp:7:1: long statement [Implementation Smell] C++ class has long statement.
+options.cpp:44:1: magic number [Implementation Smell] C++ method has magic number.
+options.cpp:7:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+
+[OCLint (https://oclint.org) v21.10]

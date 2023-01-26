@@ -1,0 +1,27 @@
+
+Compiler Warnings:
+
+store-buffer-capacity.cpp:28:20: variable 'sum' set but not used
+dram-refresh.cpp:43:21: variable 'dest' set but not used
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=18 FilesWithSmells=4 TotalCodeSmells=14 
+
+hardware-store-elimination.cpp:19:25: magic number [Implementation Smell] C++ method has magic number.
+software-prefetching.cpp:24:18: magic number [Implementation Smell] C++ method has magic number.
+software-prefetching.cpp:22:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+software-prefetching.cpp:22:1: lazy class [Organic Class Smell] C++ class with 3 lines below the threshold of 4
+software-prefetching.cpp:22:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+software-prefetching.cpp:22:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+branch-target-misprediction.cpp:31:38: magic number [Implementation Smell] C++ method has magic number.
+branch-target-misprediction.cpp:16:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+branch-target-misprediction.cpp:23:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+branch-target-misprediction.cpp:29:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dram-refresh.cpp:34:57: magic number [Implementation Smell] C++ method has magic number.
+dram-refresh.cpp:17:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+dram-refresh.cpp:17:1: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+dram-refresh.cpp:17:1: class data should be private [Organic Class Smell] C++ class having at least one public field.
+
+[OCLint (https://oclint.org) v21.10]

@@ -1,0 +1,471 @@
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+7
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=1 FilesWithSmells=1 TotalCodeSmells=256 
+
+src/pugixml.cpp:512:2: long method [Implementation Smell] C++ class has long method with 36 lines.
+src/pugixml.cpp:512:2: long method [Implementation Smell] C++ class has long method with 42 lines.
+src/pugixml.cpp:512:2: long method [Implementation Smell] C++ class has long method with 32 lines.
+src/pugixml.cpp:2676:70: long method [Implementation Smell] C++ class has long method with 46 lines.
+src/pugixml.cpp:2747:33: long method [Implementation Smell] C++ class has long method with 50 lines.
+src/pugixml.cpp:2747:33: long method [Implementation Smell] C++ class has long method with 34 lines.
+src/pugixml.cpp:2931:2: long method [Implementation Smell] C++ class has long method with 31 lines.
+src/pugixml.cpp:2931:2: long method [Implementation Smell] C++ class has long method with 44 lines.
+src/pugixml.cpp:2931:2: long method [Implementation Smell] C++ class has long method with 107 lines.
+src/pugixml.cpp:2931:2: long method [Implementation Smell] C++ class has long method with 92 lines.
+src/pugixml.cpp:2931:2: long method [Implementation Smell] C++ class has long method with 236 lines.
+src/pugixml.cpp:2931:2: long method [Implementation Smell] C++ class has long method with 45 lines.
+src/pugixml.cpp:3711:2: long method [Implementation Smell] C++ class has long method with 37 lines.
+src/pugixml.cpp:7770:2: long method [Implementation Smell] C++ class has long method with 35 lines.
+src/pugixml.cpp:7770:2: long method [Implementation Smell] C++ class has long method with 45 lines.
+src/pugixml.cpp:7947:2: long method [Implementation Smell] C++ class has long method with 33 lines.
+src/pugixml.cpp:8279:2: long method [Implementation Smell] C++ class has long method with 49 lines.
+src/pugixml.cpp:9036:2: long method [Implementation Smell] C++ class has long method with 36 lines.
+src/pugixml.cpp:9249:2: long method [Implementation Smell] C++ class has long method with 267 lines.
+src/pugixml.cpp:9672:2: long method [Implementation Smell] C++ class has long method with 38 lines.
+src/pugixml.cpp:9672:2: long method [Implementation Smell] C++ class has long method with 73 lines.
+src/pugixml.cpp:9672:2: long method [Implementation Smell] C++ class has long method with 138 lines.
+src/pugixml.cpp:9672:2: long method [Implementation Smell] C++ class has long method with 136 lines.
+src/pugixml.cpp:9672:2: long method [Implementation Smell] C++ class has long method with 40 lines.
+src/pugixml.cpp:9672:2: long method [Implementation Smell] C++ class has long method with 241 lines.
+src/pugixml.cpp:9672:2: long method [Implementation Smell] C++ class has long method with 130 lines.
+src/pugixml.cpp:9672:2: long method [Implementation Smell] C++ class has long method with 63 lines.
+src/pugixml.cpp:11307:2: long method [Implementation Smell] C++ class has long method with 118 lines.
+src/pugixml.cpp:11307:2: long method [Implementation Smell] C++ class has long method with 66 lines.
+src/pugixml.cpp:11307:2: long method [Implementation Smell] C++ class has long method with 33 lines.
+src/pugixml.cpp:11307:2: long method [Implementation Smell] C++ class has long method with 108 lines.
+src/pugixml.cpp:11307:2: long method [Implementation Smell] C++ class has long method with 32 lines.
+src/pugixml.cpp:11307:2: long method [Implementation Smell] C++ class has long method with 173 lines.
+src/pugixml.cpp:11307:2: long method [Implementation Smell] C++ class has long method with 64 lines.
+src/pugixml.cpp:11307:2: long method [Implementation Smell] C++ class has long method with 34 lines.
+src/pugixml.cpp:12091:3: long method [Implementation Smell] C++ class has long method with 49 lines.
+src/pugixml.cpp:512:2: long identifier [Implementation Smell] C++ method has long identifier.
+src/pugixml.cpp:2931:2: long identifier [Implementation Smell] C++ method has long identifier.
+src/pugixml.cpp:9036:2: long identifier [Implementation Smell] C++ method has long identifier.
+src/pugixml.cpp:8279:2: complex class [Organic Class Smell] C++ class has complex method.
+src/pugixml.cpp:512:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:1467:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:1488:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:2423:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:2676:70: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:2747:33: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:2931:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:3711:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:7770:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:7947:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:8279:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:9036:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:9249:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:9672:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:11307:2: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:12091:3: long statement [Implementation Smell] C++ class has long statement.
+src/pugixml.cpp:2931:2: long parameter list [Implementation Smell] parse_exclamation: method with 4 parameters
+src/pugixml.cpp:2931:2: long parameter list [Implementation Smell] parse_question: method with 4 parameters
+src/pugixml.cpp:2931:2: long parameter list [Implementation Smell] parse_tree: method with 4 parameters
+src/pugixml.cpp:2931:2: long parameter list [Implementation Smell] parse: method with 5 parameters
+src/pugixml.cpp:3711:2: long parameter list [Implementation Smell] write: method with 4 parameters
+src/pugixml.cpp:3711:2: long parameter list [Implementation Smell] write: method with 5 parameters
+src/pugixml.cpp:3711:2: long parameter list [Implementation Smell] write: method with 6 parameters
+src/pugixml.cpp:9672:2: long parameter list [Implementation Smell] apply_predicate_boolean: method with 5 parameters
+src/pugixml.cpp:9672:2: long parameter list [Implementation Smell] apply_predicate_number: method with 5 parameters
+src/pugixml.cpp:9672:2: long parameter list [Implementation Smell] apply_predicate_number_const: method with 4 parameters
+src/pugixml.cpp:9672:2: long parameter list [Implementation Smell] apply_predicate: method with 4 parameters
+src/pugixml.cpp:9672:2: long parameter list [Implementation Smell] apply_predicates: method with 4 parameters
+src/pugixml.cpp:9672:2: long parameter list [Implementation Smell] step_push: method with 4 parameters
+src/pugixml.cpp:9672:2: long parameter list [Implementation Smell] xpath_ast_node: method with 4 parameters
+src/pugixml.cpp:9672:2: long parameter list [Implementation Smell] xpath_ast_node: method with 5 parameters
+src/pugixml.cpp:11307:2: long parameter list [Implementation Smell] alloc_node: method with 4 parameters
+src/pugixml.cpp:11307:2: long parameter list [Implementation Smell] alloc_node: method with 5 parameters
+src/pugixml.cpp:11307:2: long parameter list [Implementation Smell] xpath_parser: method with 4 parameters
+src/pugixml.cpp:11307:2: long parameter list [Implementation Smell] parse: method with 4 parameters
+src/pugixml.cpp:218:3: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:439:64: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:1103:13: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:1163:3: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:1459:42: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:2439:5: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:7683:24: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:7795:62: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:7976:4: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:8339:9: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:9115:4: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:9286:13: magic number [Implementation Smell] C++ method has magic number.
+src/pugixml.cpp:199:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:266:24: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:462:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:506:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1115:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1140:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1146:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1444:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1449:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1467:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1488:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1533:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1548:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1576:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1591:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1617:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1638:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1705:31: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1757:31: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1787:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1804:25: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1806:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1814:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:1825:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:2676:70: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:2747:33: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:2931:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:3711:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:3912:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:4857:24: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:5078:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:7546:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:7554:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:7562:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:7763:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:7770:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:7899:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:7914:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:7920:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:8279:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:8338:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:8609:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:8793:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:8803:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:8813:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:8828:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:9232:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:9249:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:9665:22: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:9672:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:9690:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:11307:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:12091:3: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:12254:2: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/pugixml.cpp:7947:2: complex conditional [Implementation Smell] C++ class has complex conditional.
+src/pugixml.cpp:9672:2: complex conditional [Implementation Smell] C++ class has complex conditional.
+src/pugixml.cpp:11307:2: complex conditional [Implementation Smell] C++ class has complex conditional.
+src/pugixml.cpp:7947:2: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+src/pugixml.cpp:9036:2: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+src/pugixml.cpp:512:2: large class [Organic Class Smell] C++ abstract class with 177 methods exceeds limit of 96
+src/pugixml.cpp:2747:33: large class [Organic Class Smell] C++ abstract class with 140 methods exceeds limit of 96
+src/pugixml.cpp:2931:2: large class [Organic Class Smell] C++ abstract class with 604 methods exceeds limit of 96
+src/pugixml.cpp:3711:2: large class [Organic Class Smell] C++ abstract class with 161 methods exceeds limit of 96
+src/pugixml.cpp:7770:2: large class [Organic Class Smell] C++ abstract class with 118 methods exceeds limit of 96
+src/pugixml.cpp:7947:2: large class [Organic Class Smell] C++ abstract class with 106 methods exceeds limit of 96
+src/pugixml.cpp:9036:2: large class [Organic Class Smell] C++ abstract class with 120 methods exceeds limit of 96
+src/pugixml.cpp:9249:2: large class [Organic Class Smell] C++ abstract class with 290 methods exceeds limit of 96
+src/pugixml.cpp:9672:2: large class [Organic Class Smell] C++ abstract class with 1051 methods exceeds limit of 96
+src/pugixml.cpp:11307:2: large class [Organic Class Smell] C++ abstract class with 789 methods exceeds limit of 96
+src/pugixml.cpp:199:2: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:460:2: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:506:2: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:1140:2: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:1444:2: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:1449:2: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:1705:31: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:1757:31: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:1787:2: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:1804:25: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:1806:2: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:1814:2: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:1825:2: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:9665:22: unnecessary abstraction [Design Smell] C++ class has Unnecessary Abstraction.
+src/pugixml.cpp:266:24: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:462:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:506:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:512:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:1099:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:1115:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:1140:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:1146:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:2423:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:2931:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:3711:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:3912:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:4857:24: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:5078:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:7758:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:7763:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:7770:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:7899:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:7914:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:7920:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:8338:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:8609:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:8793:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:8803:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:8813:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:8828:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:9191:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:9232:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:9690:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:11307:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:12091:3: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:12254:2: deficient encapsulation [Design Smell] C++ class has Deficient Encapsulation.
+src/pugixml.cpp:512:2: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+src/pugixml.cpp:2676:70: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+src/pugixml.cpp:2931:2: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+src/pugixml.cpp:3711:2: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+src/pugixml.cpp:7770:2: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+src/pugixml.cpp:9249:2: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+src/pugixml.cpp:9672:2: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+src/pugixml.cpp:11307:2: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+src/pugixml.cpp:12091:3: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+src/pugixml.cpp:8279:2: complex method [Implementation Smell] C++ class has complex method.
+src/pugixml.cpp:266:24: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:462:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:506:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:512:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:1099:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:1115:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:1140:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:1146:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:2423:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:2931:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:3711:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:3912:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:4857:24: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:5078:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:7758:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:7763:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:7770:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:7899:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:7914:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:7920:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:8338:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:8609:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:8793:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:8803:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:8813:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:8828:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:9191:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:9232:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:9690:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:11307:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:12091:3: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:12254:2: class data should be private [Organic Class Smell] C++ class having at least one public field.
+src/pugixml.cpp:512:2: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/pugixml.cpp:2423:2: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/pugixml.cpp:2931:2: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/pugixml.cpp:3711:2: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/pugixml.cpp:7770:2: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/pugixml.cpp:7947:2: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/pugixml.cpp:9036:2: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/pugixml.cpp:9672:2: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/pugixml.cpp:11307:2: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+src/pugixml.cpp:2931:2: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+src/pugixml.cpp:9672:2: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+src/pugixml.cpp:11307:2: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+
+[OCLint (https://oclint.org) v21.10]

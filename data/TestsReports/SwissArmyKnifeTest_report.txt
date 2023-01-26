@@ -1,0 +1,34 @@
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=6 FilesWithSmells=6 TotalCodeSmells=14 
+
+./NotSwissArmyKnifeTest1.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotSwissArmyKnifeTest1.h:3:1: speculative generality [Organic Class Smell] C++ abstract class with 0 children under the limit of 3
+./NotSwissArmyKnifeTest2.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotSwissArmyKnifeTest2.h:3:1: speculative generality [Organic Class Smell] C++ abstract class with 0 children under the limit of 3
+./SwissArmyKnifeTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./SwissArmyKnifeTest.h:3:1: large class [Organic Class Smell] C++ abstract class with 14 methods exceeds limit of 12
+./SwissArmyKnifeTest.h:3:1: swiss army knife [Organic Class Smell] C++ abstract class with 16 methods exceeds limit of 15
+./SwissArmyKnifeTest.h:3:1: speculative generality [Organic Class Smell] C++ abstract class with 0 children under the limit of 3
+./NotSwissArmyKnifeTest5.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotSwissArmyKnifeTest5.h:3:1: speculative generality [Organic Class Smell] C++ abstract class with 0 children under the limit of 3
+./NotSwissArmyKnifeTest4.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotSwissArmyKnifeTest4.h:3:1: speculative generality [Organic Class Smell] C++ abstract class with 0 children under the limit of 3
+./NotSwissArmyKnifeTest3.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotSwissArmyKnifeTest3.h:3:1: speculative generality [Organic Class Smell] C++ abstract class with 0 children under the limit of 3
+
+[OCLint (https://oclint.org) v21.10]

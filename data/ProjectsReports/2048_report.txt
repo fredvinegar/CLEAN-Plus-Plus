@@ -1,0 +1,19 @@
+
+Compiler Warnings:
+
+/robo/projects/2048.cpp/src/headers/point2d.hpp:6:1: 'point2D_t' defined as a class here but previously declared as a struct; this is valid, but may result in linker errors under the Microsoft C++ ABI
+src/scores-graphics.cpp:59:21: loop variable 's' creates a copy from type 'const std::tuple<std::basic_string<char>, std::basic_string<char>, std::basic_string<char>, std::basic_string<char>, std::basic_string<char>, std::basic_string<char>, std::basic_string<char>>'
+src/gameboard.cpp:138:23: loop variable 'current_offset' creates a copy from type 'const point2D_t'
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=18 FilesWithSmells=2 TotalCodeSmells=5 
+
+src/loadresource.cpp:26:22: magic number [Implementation Smell] C++ method has magic number.
+src/gameboard.cpp:103:63: magic number [Implementation Smell] C++ method has magic number.
+src/gameboard.cpp:15:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/gameboard.cpp:35:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+src/gameboard.cpp:35:1: spaghetti code [Organic Class Smell] C++ class with at least two long methods interacting between them through method calls or shared fields.
+
+[OCLint (https://oclint.org) v21.10]

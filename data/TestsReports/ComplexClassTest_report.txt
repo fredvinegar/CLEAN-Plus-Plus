@@ -1,0 +1,29 @@
+21.1667
+21.1667
+21.1667
+21.1667
+21.1667
+21.1667
+
+Compiler Warnings:
+
+NotComplexClassTest.cpp:50:19: unused variable 'p2'
+NotComplexClassTest.cpp:57:13: unused variable 'v'
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=2 FilesWithSmells=2 TotalCodeSmells=10 
+
+./ComplexClassTest.h:3:1: long method [Implementation Smell] C++ class has long method with 44 lines.
+./ComplexClassTest.h:3:1: complex class [Organic Class Smell] C++ class has complex method.
+ComplexClassTest.cpp:8:23: magic number [Implementation Smell] C++ method has magic number.
+./ComplexClassTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./ComplexClassTest.h:3:1: complex method [Implementation Smell] C++ class has complex method.
+./NotComplexClassTest.h:3:1: long method [Implementation Smell] C++ class has long method with 31 lines.
+./NotComplexClassTest.h:3:1: long method [Implementation Smell] C++ class has long method with 33 lines.
+NotComplexClassTest.cpp:6:27: magic number [Implementation Smell] C++ method has magic number.
+./NotComplexClassTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotComplexClassTest.h:3:1: complex method [Implementation Smell] C++ class has complex method.
+
+[OCLint (https://oclint.org) v21.10]

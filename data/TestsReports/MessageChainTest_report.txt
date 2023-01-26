@@ -1,0 +1,23 @@
+3.28571
+3.28571
+3.28571
+3.28571
+3.28571
+3.28571
+3.28571
+3.28571
+3.28571
+3.28571
+3.28571
+3.28571
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=2 FilesWithSmells=2 TotalCodeSmells=3 
+
+./NotMessageChainTest.h:11:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./MessageChainTest.h:11:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./MessageChainTest.h:11:1: message chain [Organic Method Smell] C++ class has message chain.
+
+[OCLint (https://oclint.org) v21.10]

@@ -1,0 +1,32 @@
+18.6667
+18.6667
+18.6667
+18.6667
+18.6667
+18.6667
+18.6667
+18.6667
+18.6667
+
+Compiler Warnings:
+
+ImperativeAbstractionTest.cpp:7:5: variable 'i' is uninitialized when used here
+NotImperativeAbstractionTest2.cpp:7:5: variable 'i' is uninitialized when used here
+NotImperativeAbstractionTest1.cpp:7:5: variable 'i' is uninitialized when used here
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=4 FilesWithSmells=4 TotalCodeSmells=9 
+
+./ImperativeAbstractionTest.h:5:1: long method [Implementation Smell] C++ class has long method with 54 lines.
+./ImperativeAbstractionTest.h:5:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./ImperativeAbstractionTest.h:5:1: imperative abstraction [Design Smell] C++ class has Imperative Abstraction.
+./NotImperativeAbstractionTest2.h:3:1: long method [Implementation Smell] C++ class has long method with 54 lines.
+./NotImperativeAbstractionTest2.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotImperativeAbstractionTest1.h:3:1: long method [Implementation Smell] C++ class has long method with 54 lines.
+./NotImperativeAbstractionTest1.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotImperativeAbstractionTest3.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotImperativeAbstractionTest3.h:3:1: lazy class [Organic Class Smell] C++ class with 4 lines below the threshold of 57
+
+[OCLint (https://oclint.org) v21.10]

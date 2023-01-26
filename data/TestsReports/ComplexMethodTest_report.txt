@@ -1,0 +1,17 @@
+27
+27
+27
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=2 FilesWithSmells=2 TotalCodeSmells=6 
+
+NotComplexMethodTest.cpp:16:23: magic number [Implementation Smell] C++ method has magic number.
+./NotComplexMethodTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./ComplexMethodTest.h:3:1: long method [Implementation Smell] C++ class has long method with 42 lines.
+ComplexMethodTest.cpp:20:27: magic number [Implementation Smell] C++ method has magic number.
+./ComplexMethodTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./ComplexMethodTest.h:3:1: complex method [Implementation Smell] C++ class has complex method.
+
+[OCLint (https://oclint.org) v21.10]

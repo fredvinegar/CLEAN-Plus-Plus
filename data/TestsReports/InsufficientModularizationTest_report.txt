@@ -1,0 +1,90 @@
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+10.087
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=4 FilesWithSmells=4 TotalCodeSmells=13 
+
+./InsufficientModularizationTest3.h:3:1: long method [Implementation Smell] C++ class has long method with 34 lines.
+InsufficientModularizationTest3.cpp:6:25: magic number [Implementation Smell] C++ method has magic number.
+./InsufficientModularizationTest3.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./InsufficientModularizationTest3.h:3:1: complex method [Implementation Smell] C++ class has complex method.
+./InsufficientModularizationTest2.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./InsufficientModularizationTest2.h:3:1: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+./InsufficientModularizationTest1.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./InsufficientModularizationTest1.h:3:1: lazy class [Organic Class Smell] C++ class with 22 lines below the threshold of 32
+./InsufficientModularizationTest1.h:3:1: insufficient modularization [Design Smell] C++ class has Insufficient Modularization.
+./NotInsufficientModularizationTest.h:3:1: long method [Implementation Smell] C++ class has long method with 34 lines.
+NotInsufficientModularizationTest.cpp:6:25: magic number [Implementation Smell] C++ method has magic number.
+./NotInsufficientModularizationTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotInsufficientModularizationTest.h:3:1: complex method [Implementation Smell] C++ class has complex method.
+
+[OCLint (https://oclint.org) v21.10]

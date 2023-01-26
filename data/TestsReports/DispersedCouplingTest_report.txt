@@ -1,0 +1,118 @@
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+3.78431
+
+Compiler Warnings:
+
+DispersedCouplingTest.cpp:21:1: non-void function does not return a value
+./DispersedCouplingTest.h:4:9: private field 'f1' is not used
+./DispersedCouplingTest.h:5:9: private field 'f2' is not used
+NotDispersedCouplingTest1.cpp:7:9: unused variable 'v2'
+NotDispersedCouplingTest1.cpp:8:9: unused variable 'v3'
+NotDispersedCouplingTest1.cpp:9:9: unused variable 'v4'
+NotDispersedCouplingTest1.cpp:10:9: unused variable 'v5'
+NotDispersedCouplingTest1.cpp:11:9: unused variable 'v6'
+NotDispersedCouplingTest1.cpp:12:9: unused variable 'v7'
+NotDispersedCouplingTest1.cpp:13:9: unused variable 'v8'
+NotDispersedCouplingTest1.cpp:20:1: non-void function does not return a value
+./NotDispersedCouplingTest1.h:4:9: private field 'f1' is not used
+./NotDispersedCouplingTest1.h:5:9: private field 'f2' is not used
+NotDispersedCouplingTest2.cpp:6:9: unused variable 'v2'
+NotDispersedCouplingTest2.cpp:7:9: unused variable 'v3'
+NotDispersedCouplingTest2.cpp:8:9: unused variable 'v4'
+NotDispersedCouplingTest2.cpp:9:9: unused variable 'v5'
+NotDispersedCouplingTest2.cpp:10:9: unused variable 'v6'
+NotDispersedCouplingTest2.cpp:11:9: unused variable 'v7'
+NotDispersedCouplingTest2.cpp:12:9: unused variable 'v8'
+NotDispersedCouplingTest2.cpp:13:9: unused variable 'v9'
+NotDispersedCouplingTest2.cpp:14:9: unused variable 'v11'
+NotDispersedCouplingTest2.cpp:15:9: unused variable 'v12'
+NotDispersedCouplingTest2.cpp:16:9: unused variable 'v13'
+NotDispersedCouplingTest2.cpp:17:9: unused variable 'v14'
+NotDispersedCouplingTest2.cpp:18:9: unused variable 'v15'
+NotDispersedCouplingTest2.cpp:19:9: unused variable 'v16'
+NotDispersedCouplingTest2.cpp:20:9: unused variable 'v17'
+NotDispersedCouplingTest2.cpp:21:9: unused variable 'v18'
+NotDispersedCouplingTest2.cpp:22:9: unused variable 'v19'
+NotDispersedCouplingTest2.cpp:29:1: non-void function does not return a value
+./NotDispersedCouplingTest2.h:5:9: private field 'f1' is not used
+./NotDispersedCouplingTest2.h:6:9: private field 'f2' is not used
+NotDispersedCouplingTest3.cpp:6:9: unused variable 'v2'
+NotDispersedCouplingTest3.cpp:7:9: unused variable 'v3'
+NotDispersedCouplingTest3.cpp:8:9: unused variable 'v4'
+NotDispersedCouplingTest3.cpp:9:9: unused variable 'v5'
+NotDispersedCouplingTest3.cpp:10:9: unused variable 'v6'
+NotDispersedCouplingTest3.cpp:11:9: unused variable 'v7'
+NotDispersedCouplingTest3.cpp:12:9: unused variable 'v8'
+NotDispersedCouplingTest3.cpp:13:9: unused variable 'v9'
+NotDispersedCouplingTest3.cpp:18:1: non-void function does not return a value
+./NotDispersedCouplingTest3.h:6:9: private field 'f1' is not used
+./NotDispersedCouplingTest3.h:7:9: private field 'f2' is not used
+
+
+OCLint Code Smells Report
+
+Summary: TotalFiles=4 FilesWithSmells=4 TotalCodeSmells=12 
+
+DispersedCouplingTest.cpp:15:23: magic number [Implementation Smell] C++ method has magic number.
+./DispersedCouplingTest.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./DispersedCouplingTest.h:18:1: lazy class [Organic Class Smell] C++ class with 13 lines below the threshold of 46
+./DispersedCouplingTest.h:3:1: dispersed coupling [Organic Method Smell] C++ class has dispersed coupling.
+NotDispersedCouplingTest1.cpp:14:23: magic number [Implementation Smell] C++ method has magic number.
+./NotDispersedCouplingTest1.h:3:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotDispersedCouplingTest1.h:3:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+NotDispersedCouplingTest2.cpp:23:23: magic number [Implementation Smell] C++ method has magic number.
+./NotDispersedCouplingTest2.h:4:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+./NotDispersedCouplingTest2.h:4:1: intensive coupling [Organic Method Smell] C++ class has intensive coupling.
+NotDispersedCouplingTest3.cpp:15:23: magic number [Implementation Smell] C++ method has magic number.
+./NotDispersedCouplingTest3.h:5:1: unutilized abstraction [Design Smell] C++ class has Unutilized Abstraction.
+
+[OCLint (https://oclint.org) v21.10]
