@@ -27,7 +27,7 @@ We include the written tests in the [test directory](tests/), for both [C++](tes
 
 In [test_case_results.tsv](data/test_case_results.tsv), we list the results for each test case from the execution of CLEAN++ for C++ and both tools [DesigniteJava](https://www.designite-tools.com/) and [Organic](https://github.com/opus-research/organic).
 
-In the following figure we compare the number of smells between the execution of CLEAN++ and the other two Java tools on the test cases for Java.
+In the following figure we show the comparison between the number of smells from the execution of CLEAN++ with the other two Java tools on the test cases for Java.
 
 ![test case results alt](fig/test_case_results.png)
 
