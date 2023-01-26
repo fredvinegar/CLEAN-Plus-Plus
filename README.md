@@ -19,6 +19,16 @@ You can find the full details about each smell in [smells.md](data/smells.md)
 
 
 ## Install
+* Clone CLEAN++: git clone https://github.com/Tomma94/CLEAN-Plus-Plus.git
+* cd src/oclint-script
+* ./make
+* It will create the build directory.
+* cd build/oclint-release/bin
+* Inside there is the oclint-json-compilation-database which is ...
+* For run a rule on a project run: ./oclint-json-compilation-database -p <path to your project compile-command.json file> -- -rule= <rule name>
+* For running the rules in the list you first need to run this rules in this order: AggregareInfo, MethodsInfo, NumOfFanIn, NumOfFanInFunctions.
+* You can go into oclint-scripts and run: ./RunAll <path to your project compile-command.json file> for running all the smells that available.
+  
 
 ## Reproduce Test Cases
 ### List of Test Cases
