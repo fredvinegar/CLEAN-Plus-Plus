@@ -43,8 +43,8 @@ In [test_case_results.tsv](data/test_case_results.tsv), we list the results for 
 #### Replicate experiments
 ##### Create docker container for test execution
 ```console 
-docker build -t=test-cases --progress=plain -f replicate/TestsDockerfile . ;
-docker run -t=test-cases --progress=plain -f replicate/TestsDockerfile . ;
+docker build -t=test-cases --progress=plain -f replicate/TestsDockerfile .
+docker run -d -name=test-cases test-cases
 ```
 
 
