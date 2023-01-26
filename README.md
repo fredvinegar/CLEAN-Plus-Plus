@@ -1,6 +1,6 @@
 # CLEAN++
 
-CLEAN++ is an extension of OCLint, a static code analysis tool, to be able to detect 35 code smells in C++ code.
+CLEAN++ is an extension of [OCLint](https://github.com/oclint/oclint), a static code analysis tool, to be able to detect 35 code smells in C++ code.
 
 ## List of Code Smells
 
@@ -18,20 +18,39 @@ You can find the full details about each smell in [smells.md](data/smells.md)
 | BrokenModularization     | Long Identifier                         | Swiss Army Knife    | God Class                    | Shotgun Surgery        |
 
 ## Dependencies
+* A C++ compiler (such as GCC or Clang)
+* CMake
+* LLVM and Clang (version 3.4 or later)
+* Python 3
+* Ninja
 
 ## Install
-* Clone CLEAN++: git clone https://github.com/Tomma94/CLEAN-Plus-Plus.git
-* cd src/oclint-script
-* ./make
-* It will create the build directory.
-* cd build/oclint-release/bin
-* Inside there is the oclint-json-compilation-database which is ...
-* For run a rule on a project run: ./oclint-json-compilation-database -p <path to your project compile-command.json file> -- -rule= <rule name>
+```bash
+cd src/oclint-script;
+./make
+```
 
 ## Execution
-* For running the rules in the list you first need to run this rules in this order: AggregareInfo, MethodsInfo, NumOfFanIn, NumOfFanInFunctions.
-* You can go into oclint-scripts and run: ./RunAll <path to your project compile-command.json file> for running all the smells that available. 
+To run CLEAN++ on a project in <path-to-project> make sure there is a compilation database inside <path-to-project> of the format compile-command.json.
+Then, run the following commands, where <rule name> is the name of the code smells you pretend to detect.
+  
+```bash
+  cd build/oclint-release/bin
+  ./oclint-json-compilation-database -p <path-to-project> -- -rule= <rule name>
+```
+  
+To extract all 35 smells, run the RunAll script in oclint-scripts.
+  
+```bash
+  cd oclint/scripts
+  ./RunAll <path-to-project>
+```
 
+## Report
+In the end, both execution types will output a report with the detected code smells for each file.
+
+
+  
 ## Experiments
 ### Running CLEAN++ on Test Cases
 #### List of Test Cases
@@ -43,7 +62,7 @@ We include the written tests in the [test directory](tests/), for both [C++](tes
 ##### Create docker container for test execution
 ```console 
 docker build -t=test-cases --progress=plain -f replicate/TestsDockerfile .
-docker run -d -name=test-cases test-cases
+docker run -d --name=test-cases test-cases
 ```
 
 
