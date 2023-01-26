@@ -2,7 +2,16 @@
 
 CLEAN++ is an extension of [OCLint](https://github.com/oclint/oclint), a static code analysis tool, to be able to detect 35 code smells in C++ code.
 
-## List of Code Smells
+- [List of Code Smells](#list_smells)
+- [How to run CLEAN++](#how_to_run)
+  - [Dependencies](#dependencies)
+  - [Install](#install)
+  - [Execution](#execution)
+  - [Report](#report)
+- [Experiments](#experiments)
+  - [Setting up docker container](#setup_docker)
+
+## List of Code Smells {#list_smells}
 
 CLEAN++ implements 35 code smells derived from the smells in DesigniteJava and Organic tools.
 You can find the full details about each smell in [smells.md](data/smells.md)
@@ -17,20 +26,21 @@ You can find the full details about each smell in [smells.md](data/smells.md)
 | UnexploitedEncapsulation | Empty catch clause                      | Lazy Class          | Class Data Should Be Private | Message Chain          |
 | BrokenModularization     | Long Identifier                         | Swiss Army Knife    | God Class                    | Shotgun Surgery        |
 
-## Dependencies
+## How to run CLEAN++? {#how_to_run}
+### Dependencies {#dependencies}
 * A C++ compiler (such as GCC or Clang)
 * CMake
 * LLVM and Clang (version 3.4 or later)
 * Python 3
 * Ninja
 
-## Install
+### Install {#install}
 ```bash
 cd src/oclint-script;
 ./make
 ```
 
-## Execution
+### Execution {#execution}
 To run CLEAN++ on a project in <path-to-project> make sure there is a compilation database inside <path-to-project> of the format compile-command.json.
 Then, run the following commands, where <rule name> is the name of the code smells you pretend to detect.
   
@@ -46,14 +56,14 @@ To extract all 35 smells, run the RunAll script in oclint-scripts.
   ./RunAll <path-to-project>
 ```
 
-## Report
+### Report {#report}
 In the end, both execution types will output a report with the detected code smells for each file.
 
 
   
-## Experiments
+## Experiments {#experiments}
 
-### Setting up docker container
+### Setting up docker container {#setup_docker}
 To replicate the experiments, you need to create a container with CLEAN++ installed.
 Therefore execute the following commands.
 
