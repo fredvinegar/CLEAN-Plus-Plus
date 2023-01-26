@@ -144,7 +144,7 @@ docker exec -ti cleanpp /bin/bash -c "cd <project-dir>; bear make"
 # Run CLEAN++ on the project directory (May take from a few minutes to hours depending on the project)
 docker exec -ti cleanpp /bin/bash -c "/oclint-repo/oclint-scripts/RunRules.sh <project-dir> > /tmp/<project-dir>_report.txt"
 # Parse the generated report
-docker exec -ti cleanpp /bin/bash -c "/oclint-repo/oclint-scripts/ParseProject.py <project_dir>"
+docker exec -ti cleanpp /bin/bash -c "python3 /oclint-repo/oclint-scripts/ParseProject.py <project_dir>"
 # Get results from docker
 docker cp cleanpp:/tmp/<project-dir>_results.csv .
 
@@ -162,7 +162,7 @@ docker exec -ti cleanpp /bin/bash -c "cd 2048; bear make"
 # Run CLEAN++ on 2048
 docker exec -ti cleanpp /bin/bash -c "/oclint-repo/oclint-scripts/RunRules.sh /2048 > /tmp/2048_report.txt"
 # Parse the generated report
-docker exec -ti cleanpp /bin/bash -c "/oclint-repo/oclint-scripts/ParseProject.py 2048"
+docker exec -ti cleanpp /bin/bash -c "python3 /oclint-repo/oclint-scripts/ParseProject.py 2048"
 # Get results from docker
 docker cp cleanpp:/tmp/2048_results.csv .
 
