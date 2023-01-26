@@ -98,6 +98,7 @@ We include the written tests in the [test directory](tests/), for both [C++](tes
 
 
 #### Replicate experiments
+##### Replicate execution on C++ test cases
 ```bash
 # Creates compilation database for each test case.
 docker exec -ti cleanpp /bin/bash -c 'python3 /oclint-repo/oclint-scripts/BearAllTestScript.py | bash'
@@ -108,6 +109,20 @@ docker exec -ti cleanpp /bin/bash -c 'python3 /oclint-repo/oclint-scripts/ParseA
 # Get the results from the docker container
 docker cp cleanpp:/oclint-repo/oclint-scripts/cpp_test_cases_results.csv .
 ```
+
+##### Replicate execution on Java test cases
+<ins>Depedencies</ins>
+* Java > 8
+* Python3
+  * pandas
+  * tqdm
+  
+```bash
+# Run and parse DesigniteJava and Organic in the test cases
+python src/oclint-scripts/RunParseAllJavaTestScript.py tests/java
+```
+
+The final results will be in the file ```java_results_test.csv```
 
 #### Results
 In [test_case_results.tsv](data/test_case_results.tsv), we list the results for each test case from the execution of CLEAN++ for C++ and both tools [DesigniteJava](https://www.designite-tools.com/) and [Organic](https://github.com/opus-research/organic).
