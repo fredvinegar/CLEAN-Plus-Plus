@@ -64,9 +64,15 @@ To extract all 35 smells, run the RunAll script in oclint-scripts.
   cd oclint/scripts
   ./RunAll <path-to-project>
 ```
+#### Notes
+* Before running the smells on new project, it is necessary to run these rules on your project in this order: AggregateInfo, MethodsInfo, NumOfFanIn, NumOfFanInFunctions.
+* These rules created four files in the /tmp/ directory (Data, Methods, NumOfFanIn, NumOfFanInFunctions). If you want to run on a new project, please delete those files first.
 
 ### Report
 In the end, both execution types will output a report with the detected code smells for each file.
+For example, [example_report.txt](data/example_report.txt) shows a full report for the execution of CLEAN++ on the project [gperftools](https://github.com/gperftools/gperftools).
+
+![example_report_alt](fig/example_report.png)
 
 
   
@@ -74,11 +80,11 @@ In the end, both execution types will output a report with the detected code sme
 
 ### Setting up docker container
 To replicate the experiments, you need to create a container with CLEAN++ installed.
-Therefore execute the following commands.
+Therefore execute the following commands from the root of the repository.
 
 ```bash 
 docker build -t=cleanpp --progress=plain .
-docker run -d --name=cleanpp cleanpp
+docker run -d --name=cleancpp cleanpp
 ```
 
 ### Running CLEAN++ on Test Cases
