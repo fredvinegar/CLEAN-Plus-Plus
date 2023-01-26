@@ -47,4 +47,8 @@ You can find more information about them in [projects.tsv](data/projects.tsv)
 | cxxopts   | UDPspeeder         | muduo       | handy         | backward-cpp        | openal-soft      |           |
 
 We executed CLEAN++ on all of the 44 projects.
-You can observe the results in [project_results.tsv](data/project_results.tsv)
+You can observe the results in [project_results.tsv](data/project_results.tsv).
+
+In the following figure, you can observe the number of smells detected by CLEAN++ for each project.
+
+![project results alt](fig/project_results.png)
