@@ -2,6 +2,7 @@
 
 CLEAN++ is an extension of [OCLint](https://github.com/oclint/oclint), a static code analysis tool, to be able to detect 35 code smells in C++ code.
 
+## Table of Contents
 - [List of Code Smells](#list-of-code-smells)
 - [How to run CLEAN++](#how-to-run-clean)
   - [Dependencies](#dependencies)
@@ -9,7 +10,15 @@ CLEAN++ is an extension of [OCLint](https://github.com/oclint/oclint), a static 
   - [Execution](#execution)
   - [Report](#report)
 - [Experiments](#experiments)
-  - [Setting up docker container](#setup_docker)
+  - [Setting up docker container](#setting-up-docker-container)
+  - [Running CLEAN++ on Test Cases](#running-clean-on-test-cases)
+    - [List of Test Cases](#list-of-test-cases)
+    - [Replicate experiments](#replicate-experiments)
+    - [Results](#results)
+  - [Running CLEAN++ on Projects](#running-clean-on-projects)
+    - [List of Test Cases](#list-of-test-cases-1)
+    - [Replicate experiments](#replicate-experiments-1)
+    - [Results](#results-1)
 
 ## List of Code Smells
 
@@ -56,14 +65,14 @@ To extract all 35 smells, run the RunAll script in oclint-scripts.
   ./RunAll <path-to-project>
 ```
 
-### Report {#report}
+### Report
 In the end, both execution types will output a report with the detected code smells for each file.
 
 
   
-## Experiments {#experiments}
+## Experiments
 
-### Setting up docker container {#setup_docker}
+### Setting up docker container
 To replicate the experiments, you need to create a container with CLEAN++ installed.
 Therefore execute the following commands.
 
