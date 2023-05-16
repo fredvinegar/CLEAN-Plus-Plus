@@ -2,6 +2,12 @@
 
 CLEAN++ is an extension of [OCLint](https://github.com/oclint/oclint), a static code analysis tool, to be able to detect 35 code smells in C++ code.
 
+![logo](fig/logo.png)
+
+## Tool Paper
+
+[Download](https://u.cs.biu.ac.il/~kaminkg/publications/papers/msr23.pdf)
+
 ## Table of Contents
 - [List of Code Smells](#list-of-code-smells)
 - [How to run CLEAN++](#how-to-run-clean)
